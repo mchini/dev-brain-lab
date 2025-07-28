@@ -12,7 +12,7 @@ sections:
       image:
         filename: logo.png
       text: |
-        <br>
+	    <br>
 		In the developing brain lab, we study how the first sparks of brain activity mature into the flexible, balanced networks that let us do all the complex behaviors  that truly make us human. 		
 		We aim to uncover the principles that guide the maturation of the subtle balance between excitatory and inhibitory neurons,	and how through their tug-of-war that unfolds over development emerge complex neural dynamics.		
 		To answer these questions, we combine high-density in vivo electrophysiology, opto- and chemogenetics in neonatal mice. We pair experiments with spiking neural network models to test mechanisms, and we aim at validating our findings against human neonatal EEG.		
