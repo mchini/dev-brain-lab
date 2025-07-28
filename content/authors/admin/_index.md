@@ -15,9 +15,9 @@ role: Group Leader
 # Organizations/Affiliations
 organizations:
   - name: 
-  - University of Liege
-  - University Medical Center Hamburg-Eppendorf
-    url: ''
+    - University of Liege
+    - University Medical Center Hamburg-Eppendorf
+      url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interest is system neuroscience applied to understanding early brain development in health and disease
@@ -45,14 +45,16 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: custom/database
+    link: https://gin.g-node.org/iinnpp/dev_brain
   - icon: github
     icon_pack: fab
     link: https://github.com/gcushen
+  - icon: custom/bluesky
+    link: https://twitter.com/GeorgeCushen
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/GeorgeCushen
-  - icon: custom/database
-    link: https://gin.g-node.org/iinnpp/dev_brain
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
