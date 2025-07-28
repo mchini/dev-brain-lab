@@ -10,7 +10,7 @@ sections:
         The Developing Brain
         Research Group
       image:
-        filename: welcome.jpg
+        filename: developing_brain_logo.png
       text: |
         <br>
         
