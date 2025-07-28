@@ -39,6 +39,12 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:chinmattia@gmail.com'
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=tQ8lYxgAAAAJ&hl=en
   - icon: custom/database
     link: https://gin.g-node.org/iinnpp/dev_brain
   - icon: github
