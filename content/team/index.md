@@ -1,13 +1,13 @@
 ---
 title: People
-date: 2025-07-29
+date: 2025-07-27
 
 type: landing
 
 sections:
   - block: people
     content:
-      title: "Meet the Team"
+      title: ""
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
