@@ -45,7 +45,7 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=tQ8lYxgAAAAJ&hl=en
-  - icon: custom/database
+  - icon: custom/download
     link: https://gin.g-node.org/iinnpp/dev_brain
   - icon: github
     icon_pack: fab
