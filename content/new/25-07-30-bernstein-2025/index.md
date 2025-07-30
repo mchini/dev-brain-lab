@@ -1,11 +1,9 @@
 ---
-title: Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020
-date: 2020-12-02
-image:
-  focal_point: 'top'
+title: Richard Hendricks Wins First Place in the Wowchemy Prize
+date: 2025-07-30
 ---
 
-Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.
+Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.
 
 <!--more-->
 
