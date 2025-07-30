@@ -51,7 +51,7 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/mchini
-  - icon: bluesky
+  - icon: square-bluesky
     icon_pack: fab
     link: https://bsky.app/profile/mattiachini.bsky.social
   - icon: twitter
