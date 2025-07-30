@@ -47,7 +47,7 @@ social:
     link: https://scholar.google.com/citations?user=tQ8lYxgAAAAJ&hl=en
   - icon: database
     icon_pack: fas
-    link: https://gin.g-node.org/iinnpp/dev_brain
+    link: https://gin.g-node.org/mchini
   - icon: github
     icon_pack: fab
     link: https://github.com/mchini

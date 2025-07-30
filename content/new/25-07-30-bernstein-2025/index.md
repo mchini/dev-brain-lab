@@ -1,14 +1,38 @@
 ---
-title: Richard Hendricks Wins First Place in the Wowchemy Prize
+title: We will organize the PhD symposium & a satellite workshop at Bernstein Conference 2025!
 date: 2025-07-30
 ---
 
-Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.
+I am excited to share that, together with Irina Pochinok from the Hamburg faction of the lab, I will co-organise two events at the Bernstein Conference 2025 in Frankfurt.
 
+![Bernstein logo](bernstein.png)
 <!--more-->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+### PhD Symposium – 28 September 2025
+We will open the conference open with the PhD Symposium on 29 September 2025. This event supports early‑career scientists. Young researchers will present and get direct feedback. The symposium highlights fresh ideas and invites lively discussion. 
+abstracts.g-node.org
++9
+bernstein-network.de
++9
+bernstein-network.de
++9
 
-Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.
+Satellite Workshop – 29–30 September 2025
+Next, we host a Satellite Workshop on 29 and 30 September 2025. Its theme: Consistency in computational neuroscience—exploring methods that ensure reliable, interpretable models of brain dynamics. We will focus on bridging machine‑learning techniques and mechanistic modeling. 
+bernstein-network.de
++2
+bernstein-network.de
++2
+BrainModes
++2
 
-Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.
+Why this matters
+Our symposium builds community among early‑career researchers. Our workshop fosters methodological rigor in the field. Both events create an ideal springboard for CON2PHYS—a new initiative I have developed to study physical constraints and consistency in computational brain models. CON2PHYS aims to combine robust data‑driven methods with biophysical interpretation. 
+bernstein-network.de
+bernstein-network.de
+
+Personal note
+I serve the lab in Hamburg and here in Aachen. These events reflect our commitment to training young scientists and advancing modeling consistency. I feel proud to bring CON2PHYS into the Bernstein community. This platform will shape collaborations and inspire new directions.
+
+Conference overview
+The main conference runs 29 September to 2 October 2025 at Goethe University, Frankfurt am Main. The Bernstein Conference is Europe’s largest annual computational neuroscience meeting. It attracts students, postdocs, and PIs from across the world.

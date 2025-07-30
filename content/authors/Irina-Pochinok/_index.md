@@ -27,7 +27,7 @@ social:
     link: https://github.com/iinnpp
   - icon: database
     icon_pack: fas
-    link: https://gin.g-node.org/iinnpp/dev_brain
+    link: https://gin.g-node.org/iinnpp/
   - icon: bluesky
     icon_pack: fab
     link: https://bsky.app/profile/irinapochinok.bsky.social
