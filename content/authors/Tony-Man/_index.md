@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Guoming "Tony" Man
+title: Guoming Tony Man
 
 # Full name (for SEO)
-first_name: Guoming "Tony"
+first_name: Guoming Tony
 last_name: Man
 
 # Username (this should match the folder name)
 authors:
-  - Guoming "Tony" Man
+  - Guoming Tony Man
 
 # Is this the primary user of the site?
 superuser: false
