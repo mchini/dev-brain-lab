@@ -22,18 +22,19 @@ organizations:
     url: ''
 
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/iinnpp
+  - icon: database
+    icon_pack: fas
+    link: https://gin.g-node.org/iinnpp/dev_brain
+  - icon: bluesky
+    icon_pack: fab
+    link: https://bsky.app/profile/irinapochinok.bsky.social
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/IPochinok
+
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
