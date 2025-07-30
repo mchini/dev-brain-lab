@@ -54,7 +54,7 @@ social:
   - icon: bluesky
     icon_pack: fab
     link: https://bsky.app/profile/mattiachini.bsky.social
-  - icon: twitter
+  - icon: x-twitter
     icon_pack: fab
     link: https://x.com/chini_mattia
 
