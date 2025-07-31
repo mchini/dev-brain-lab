@@ -1,5 +1,5 @@
 ---
-title: We will organize the PhD symposium & a satellite workshop at Bernstein Conference 2025!
+title: Meet us at the Bernstein Conference 2025!
 date: 2025-07-30
 ---
 
@@ -8,12 +8,16 @@ I am excited to share that, together with Irina Pochinok from the "Hamburg fac
 ![Bernstein logo](bernstein.png)
 <!--more-->
 
-Both events are centered around CON<sup>2</sup>PHYS, a collaborative study on CONceptual CONsistency in electroPHYSiology, 
-a project that is near and dear to my heart. CON<sup>2</sup>PHYS is an attempt at quantifying whether when we (electrophysiologists) 
-refer to a high-level concept (dimensionality, functional communication, but also hippocampal ripple, or spike-spike correlations), 
-we actually mean the same thing and come to same quantitative conclusions.
+Both events are centered around [CON<sup>2</sup>PHYS](https://gin.g-node.org/mchini/CON2PHYS), a collaborative study on 
+CONceptual CONsistency in electroPHYSiology, 
+a project that is near and dear to my heart. CON<sup>2</sup>PHYS is an attempt at quantifying whether when "we" electrophysiologists 
+refer to a high-level concept (dimensionality, functional communication, but also hippocampal ripple, or spike-spike correlations etc.), 
+we actually mean the same thing and come to same quantitative conclusions. The project takes a very practical approach to try to answer this question.
+We have curated a blinded high-quality electrophysiological dataset of mice carrying out a behavioral task, 
+which we will use to ask very simple multiple-choice questions to the participants. Will we see consensus above chance-level across the board? 
+Only for certain concepts? Time will tell.
 
-Does this sound interesting to you? Do you want to know more or participate in the study? You're still on time to do it, the project 
+Does this sound interesting to you? Do you want to know more or participate in the study? You're still on time to do it! The project 
 will launch around the Bernstein Conference, participation will be open to everyone, and submissions will be accepted for ~9-12 months.
 All details are available [here](https://gin.g-node.org/mchini/CON2PHYS)
 
@@ -32,4 +36,4 @@ conceptual consistency in system neuroscience across very different domains: spi
 neural timescales, causality measures, neural manifolds and many more.
 
 If you are attending the conference and want to talk to me/us because you are interested in these topics or in one of the available 
-[postdoc opportunities](add_link_here), feel free to reach out via e-mail or on socials, see details [here](/team/).
+[postdoc opportunities](/opportunities/postdoc-ad/), feel free to reach out via e-mail or on socials, see details [here](/team/).
