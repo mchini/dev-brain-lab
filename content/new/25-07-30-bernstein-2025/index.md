@@ -3,36 +3,33 @@ title: We will organize the PhD symposium & a satellite workshop at Bernstein Co
 date: 2025-07-30
 ---
 
-I am excited to share that, together with Irina Pochinok from the Hamburg faction of the lab, I will co-organise two events at the Bernstein Conference 2025 in Frankfurt.
+I am excited to share that, together with Irina Pochinok from the "Hamburg faction" of the lab, I will co-organise two events at the Bernstein Conference 2025 in Frankfurt.
 
 ![Bernstein logo](bernstein.png)
 <!--more-->
 
+Both events are centered around CON<sup>2</sup>PHYS, a collaborative study on CONceptual CONsistency in electroPHYSiology, 
+a project that is near and dear to my heart. CON<sup>2</sup>PHYS is an attempt at quantifying whether when we (electrophysiologists) 
+refer to a high-level concept (dimensionality, functional communication, but also hippocampal ripple, or spike-spike correlations), 
+we actually mean the same thing and come to same quantitative conclusions.
+
+Does this sound interesting to you? Do you want to know more or participate in the study? You're still on time to do it, the project 
+will launch around the Bernstein Conference, participation will be open to everyone, and submissions will be accepted for ~9-12 months.
+All details are available [here](https://gin.g-node.org/mchini/CON2PHYS)
+
 ### PhD Symposium – 28 September 2025
-We will open the conference open with the PhD Symposium on 29 September 2025. This event supports early‑career scientists. Young researchers will present and get direct feedback. The symposium highlights fresh ideas and invites lively discussion. 
-abstracts.g-node.org
-+9
-bernstein-network.de
-+9
-bernstein-network.de
-+9
+The ["Consensus" PhD symposium](https://bernstein-network.de/en/bernstein-conference/early-career-scientists/phd-symposium/) 
+will open the conference on September 28<sup>th</sup>. 
+Irina and I will co-organize a hackathon, in which we will divide PhD students in small teams, and have them tackle a few questions taken from
+[CON<sup>2</sup>PHYS](https://gin.g-node.org/mchini/CON2PHYS). Next, we will quantify the extent to which the teams will have reached a "Consensus",
+and discuss the results with all participants.
 
-Satellite Workshop – 29–30 September 2025
-Next, we host a Satellite Workshop on 29 and 30 September 2025. Its theme: Consistency in computational neuroscience—exploring methods that ensure reliable, interpretable models of brain dynamics. We will focus on bridging machine‑learning techniques and mechanistic modeling. 
-bernstein-network.de
-+2
-bernstein-network.de
-+2
-BrainModes
-+2
+### Satellite Workshop – 29–30 September 2025
+Next, Irina and I, together with Simon Musall, will host a Satellite Workshop on September 29<sup>th</sup>-30<sup>th</sup>:
+[Same words, different worlds: Conceptual consistency in systems neuroscience](https://bernstein-network.de/bernstein-conference/program/satellite-workshops/consistency/)
+The workshops brings together a stellar cast of philosophers, experimentalists, theorists, and engineers. Together with them, we will explore the (lack of) 
+conceptual consistency in system neuroscience across very different domains: spike sorting, definition of ripples and other types of oscillatory phenomena,
+neural timescales, causality measures, neural manifolds and many more.
 
-Why this matters
-Our symposium builds community among early‑career researchers. Our workshop fosters methodological rigor in the field. Both events create an ideal springboard for CON2PHYS—a new initiative I have developed to study physical constraints and consistency in computational brain models. CON2PHYS aims to combine robust data‑driven methods with biophysical interpretation. 
-bernstein-network.de
-bernstein-network.de
-
-Personal note
-I serve the lab in Hamburg and here in Aachen. These events reflect our commitment to training young scientists and advancing modeling consistency. I feel proud to bring CON2PHYS into the Bernstein community. This platform will shape collaborations and inspire new directions.
-
-Conference overview
-The main conference runs 29 September to 2 October 2025 at Goethe University, Frankfurt am Main. The Bernstein Conference is Europe’s largest annual computational neuroscience meeting. It attracts students, postdocs, and PIs from across the world.
+If you are attending the conference and want to talk to me/us because you are interested in these topics or in one of the available 
+[postdoc opportunities](add_link_here), feel free to reach out via e-mail or on socials, see details [here](/team/).
