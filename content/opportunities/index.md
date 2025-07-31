@@ -14,7 +14,7 @@ We have funding for **two fully-funded FNRS postdoctoral positions** (2+1 years)
 - One **experimentalist:** for those with hands-on in-vivo electrophysiology experience.
 - One **computational:** for applicants with a strong background in data analysis or spiking neural network modeling.
 
-[**Full details here.**](/postdoc-ad/)
+[**Full details here.**](/opportunities/postdoc-ad/)
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 2em; margin-bottom: 1em;">
   <img src="uliege_logo.png" alt="University of Liège" style="height:70px;">
