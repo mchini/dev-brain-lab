@@ -17,5 +17,5 @@ main:
     url: new
     weight: 40
   - name: Opportunities
-    url: opportunity
+    url: opportunities
     weight: 50

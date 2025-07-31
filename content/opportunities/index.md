@@ -1,0 +1,19 @@
+---
+# Current opportunities
+
+I have funding for **two fully-funded FNRS postdoctoral positions** (2+1 years):
+
+- One **experimentalist:** for those with hands-on in-vivo electrophysiology experience.
+- One **computational:** for applicants with a strong background in data analysis or spiking neural network modeling.
+
+[**Full details here.**](#)
+
+---
+
+## Open applications
+
+I welcome spontaneous applications from enthusiastic scientists at any stage: master’s students, PhDs, or postdocs. If you are driven by curiosity and want to work at the intersection of developmental biology, systems and computatioanal neuroscience, you are encouraged to get in touch. All backgrounds, from biology and medicine to physics and mathematics, are welcome to apply.
+
+If you are interested, please send a short message explaining why you would like to join the lab, along with a brief CV. Use whichever channel you prefer to contact me - details are [here](#).
+
+---
