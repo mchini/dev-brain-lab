@@ -2,12 +2,18 @@
 title: "Opportunities"
 # date: 2025-07-31
 # draft: false
+share: false
 # description: "Current postdoctoral and spontaneous opportunities in the lab."
 ---
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 2em; margin-bottom: 1em;">
+  <img src="uliege_logo.png" alt="University of Liège" style="height:70px;">
+  <img src="fnrs_logo.png" alt="FNRS" style="height:70px;">
+</div>
+
 # Current opportunities
 
-I have funding for **two fully-funded FNRS postdoctoral positions** (2+1 years):
+I have funding for **two fully-funded FNRS postdoctoral positions** (2+1 years) at GIGA - ULiège:
 
 - One **experimentalist:** for those with hands-on in-vivo electrophysiology experience.
 - One **computational:** for applicants with a strong background in data analysis or spiking neural network modeling.
