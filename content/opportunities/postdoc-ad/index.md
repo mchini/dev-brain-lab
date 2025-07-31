@@ -1,5 +1,5 @@
 ---
-title: "Two Postdoctoral Positions in Neuroscience – Chini Lab, GIGA Institute, University of Liège"
+title: ""
 date: 2025-07-31
 # Add categories, tags, or menu if you wish
 # categories: ["Opportunities"]
