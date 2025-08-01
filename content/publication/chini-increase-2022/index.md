@@ -49,6 +49,8 @@ abstract: Throughout development, the brain transits from early highly synchrono
   changes in E-I ratio control the (de)correlation of neural activity and, by these
   means, its developmental imbalance might contribute to the pathogenesis of neurodevelopmental
   disorders.
+  
+image: publications/decorrelation.png
 
 # Summary. An optional shortened abstract.
 summary: ''
