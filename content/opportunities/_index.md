@@ -3,6 +3,9 @@ title: ""
 # date: 2025-07-31
 # draft: false
 share: false
+_list: false
+list: false
+show_list: false
 # description: "Current postdoctoral and spontaneous opportunities in the lab."
 ---
 <span style="font-size: 0.8em;">
