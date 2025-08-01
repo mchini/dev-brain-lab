@@ -3,6 +3,8 @@ title: iSTTC preprint
 date: 2025-08-01
 ---
 
+<span style="font-size: 0.6em;">
+
 We are very happy to share our latest preprint introducing iSTTC, a powerful new tool for accurately measuring intrinsic neural timescales 
 from single-unit activity datasets. This work was spearheaded by Irina Pochinok, a PhD student in Hamburg, in the institute of Ileana Hanganu-Opatz.
 
@@ -26,3 +28,5 @@ In our manuscript, we provide practical advice on the types of data needed for r
 This preprint is only the beginning of our lab's deeper exploration into neural timescales, particularly during brain development, 
 where sparse data is the norm. We developed iSTTC specifically for these challenging developmental datasets. We look forward to sharing insights 
 from our upcoming developmental studies and uncovering new principles about how neural timescales shape cognitive development.
+
+<span>
