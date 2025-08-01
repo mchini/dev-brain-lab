@@ -25,29 +25,9 @@ sections:
       subtitle: ''
       text: |
         <div style="display: flex; gap: 2em; justify-content: center; align-items: center; margin: 2em 0;">
-          <a href="/news/" style="padding: 1em 2em; background: #5e81ac; color: #fff; border-radius: 0.5em; text-decoration: none; font-size: 1.25em; font-weight: 500; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">See all News</a>
-          <a href="/publications/" style="padding: 1em 2em; background: #a3be8c; color: #fff; border-radius: 0.5em; text-decoration: none; font-size: 1.25em; font-weight: 500; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">See all Publications</a>
+          <a href="/new/" style="padding: 1em 2em; background: #5e81ac; color: #fff; border-radius: 0.5em; text-decoration: none; font-size: 1.25em; font-weight: 500; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">See all News</a>
+          <a href="/publication/" style="padding: 1em 2em; background: #a3be8c; color: #fff; border-radius: 0.5em; text-decoration: none; font-size: 1.25em; font-weight: 500; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">See all Publications</a>
         </div>
     design:
       columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: developing_brain_logo.png
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 ---
