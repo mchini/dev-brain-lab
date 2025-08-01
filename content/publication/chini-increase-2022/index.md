@@ -50,8 +50,6 @@ abstract: Throughout development, the brain transits from early highly synchrono
   means, its developmental imbalance might contribute to the pathogenesis of neurodevelopmental
   disorders.
   
-image: publications/decorrelation.png
-
 # Summary. An optional shortened abstract.
 summary: ''
 
