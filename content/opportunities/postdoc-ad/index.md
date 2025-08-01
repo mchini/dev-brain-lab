@@ -6,7 +6,7 @@ date: 2025-07-31
 # tags: ["postdoc", "neuroscience", "ASD", "electrophysiology", "computational", "system", "experimental", "opportunities"]
 ---
 
-<span style="font-size: 0.6em;">
+<span style="font-size: 0.75em;">
 
 # Two Postdoctoral Positions in Neuroscience  
 **Chini Lab, GIGA Institute, University of Liège**

@@ -3,7 +3,7 @@ title: Meet us at the Bernstein Conference 2025!
 date: 2025-07-30
 ---
 
-<span style="font-size: 0.6em;">
+<span style="font-size: 0.75em;">
 
 I am excited to share that, together with Irina Pochinok from the "Hamburg faction" of the lab, I will co-organise two events at the Bernstein Conference 2025 in Frankfurt.
 
