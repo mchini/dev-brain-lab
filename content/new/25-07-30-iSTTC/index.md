@@ -2,9 +2,8 @@
 title: iSTTC preprint
 date: 2025-08-01
 
-featured:
-  image: /content/new/25-07-30-bernstein-2025/bernstein.png
-  
+image:
+  preview_only: true
 ---
 
 <span style="font-size: 0.75em;">
