@@ -28,7 +28,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Nature Communications*'
+publication: 'Nature Communications'
 publication_short: ''
 
 doi: 10.1038/s41467-024-44983-z
@@ -60,8 +60,8 @@ featured: false
 
 # Links
 url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_code: 'https://github.com/iinnpp/spwr_snn'
+url_dataset: 'https://gin.g-node.org/iinnpp/ripples_emergence_inhibition'
 url_poster: ''
 url_project: ''
 url_slides: ''
