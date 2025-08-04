@@ -42,10 +42,8 @@ publication_types:
 - manuscript
 
 # Publication name and optional abbreviated publication name.
-publication: '*bioRxiv*'
+publication: 'bioRxiv'
 publication_short: ''
-
-doi: 10.1101/2025.05.01.651773
 
 abstract: The mouse cortex is a canonical model for studying how functional neural
   networks emerge, yet it remains unclear which topological features arise from intrinsic
@@ -79,17 +77,12 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+
 
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
 image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
+  caption: 'Ventral and dorsal forebrain organoids have very different network structures'
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
