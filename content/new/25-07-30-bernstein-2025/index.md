@@ -1,6 +1,7 @@
 ---
 title: Meet us at the Bernstein Conference 2025!
 date: 2025-07-30
+show_author: false
 
 image:
   preview_only: true
