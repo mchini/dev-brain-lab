@@ -6,8 +6,6 @@ image:
   preview_only: true
 ---
 
-<span style="font-size: 0.75em;">
-
 We are very happy to share our latest [preprint](https://www.biorxiv.org/content/10.1101/2025.08.01.668071v1) introducing iSTTC, 
 a powerful new tool for accurately measuring intrinsic neural timescales from single-unit activity datasets. 
 This work was spearheaded by Irina Pochinok, a PhD student in Hamburg, in the institute of Ileana Hanganu-Opatz.
@@ -36,6 +34,4 @@ This [preprint](https://www.biorxiv.org/content/10.1101/2025.08.01.668071v1) is 
 particularly during brain development, where sparse data is the norm. 
 We developed iSTTC specifically for these challenging developmental datasets. We look forward to sharing insights 
 from our upcoming developmental studies and uncovering new principles about how neural timescales shape cognitive development.
-
-<span>
 

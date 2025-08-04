@@ -2,10 +2,9 @@
 title: ""
 date: 2025-07-31
 # Add categories, tags, or menu if you wish
+featured: false
 # tags: ["postdoc", "neuroscience", "ASD", "electrophysiology", "computational", "system", "experimental", "opportunities"]
 ---
-
-<span style="font-size: 0.75em;">
 
 # Two Postdoctoral Positions in Neuroscience  
 **Chini Lab, GIGA Institute, University of Liège**
@@ -85,5 +84,3 @@ Review of applications will begin immediately and continue until the positions a
 ---
 
 Join us at the Chini Lab to explore fundamental questions in neuroscience and contribute to meaningful advances in the understanding of ASD and brain development.
-
-<span>

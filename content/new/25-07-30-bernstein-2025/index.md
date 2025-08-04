@@ -6,8 +6,6 @@ image:
   preview_only: true
 ---
 
-<span style="font-size: 0.75em;">
-
 I am excited to share that, together with Irina Pochinok from the "Hamburg faction" of the lab, I will co-organise two events at the Bernstein Conference 2025 in Frankfurt.
 
 ![Bernstein logo](bernstein.png)
@@ -41,5 +39,3 @@ neural timescales, causality measures, neural manifolds and many more.
 
 If you are attending the conference and want to talk to me/us because you are interested in these topics or in one of the available 
 [postdoc opportunities](/opportunities/postdoc-ad/), feel free to reach out via e-mail or on socials, see details [here](/team/).
-
-<span>
