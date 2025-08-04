@@ -2,10 +2,9 @@
 title: iSTTC preprint
 date: 2025-08-01
 
-image:
-  caption: 'This figure shows the approach to generate the synthetic dataset on which we benchamrked iSTTC (panel A),
-  and how iSTTC performs better than the standard ACF, particularly in biologically-plausible regimes characterized 
-  by low firing rates and high excitation strength regimes (panels B-D)'
+featured:
+  image: /content/new/25-07-30-bernstein-2025/bernstein.png
+  
 ---
 
 <span style="font-size: 0.75em;">
