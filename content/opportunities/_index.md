@@ -3,8 +3,8 @@ title: ""
 # date: 2025-07-31
 share: false
 # description: "Current postdoctoral and spontaneous opportunities in the lab."
-type: widget_page 
-
+type: page 
+layout: single
 ---
 
 # Current opportunities
