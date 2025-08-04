@@ -95,5 +95,3 @@ links:
 - name: URL
   url: https://doi.org/10.7554/eLife.78811
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
