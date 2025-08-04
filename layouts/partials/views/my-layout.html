@@ -18,7 +18,7 @@
     {{ with $resource }}
       {{ $image := .Resize "300x" }}
       {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="width: 100%">
+      <a style="width: 100%" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
         <img src="{{ $image.RelPermalink }}"
              style="width: 100%; max-height: 11em; object-fit: contain; display: block;"
              alt="{{ $item.Title }}" loading="lazy">
@@ -27,4 +27,46 @@
   </div>
 
   <!-- Right: Metadata -->
-  <div class="pub-meta" style
+  <div class="pub-meta" style="flex: 4; display: flex; flex-direction: column; justify-content: flex-start;">
+    <!-- Title -->
+    <div class="section-subheading article-title" style="font-size: 2em; font-weight: bold; margin-bottom: 0.25em;">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="text-decoration: none; color: inherit;">{{ $item.Title }}</a>
+    </div>
+
+    <!-- Journal / Date -->
+    <div style="font-size: 1.2em; color: #666; margin-bottom: 0.2em;">
+      {{ with $item.Params.publication }}<span style="font-weight: bold;">{{ . }}</span>{{ end }}
+      {{ if and $item.Params.publication $item.Date }}<span> · </span>{{ end }}
+      {{ with $item.Date }}<span>{{ . | time.Format "2006" }}</span>{{ end }}
+    </div>
+
+    <!-- Authors, rendered inline not clickable -->
+    {{ with $item.Params.authors }}
+      <div style="font-size: 1em; margin-bottom: 0.4em;">
+        {{ delimit . ", " }}
+      </div>
+    {{ end }}
+
+    <!-- Buttons: Only PDF, URL, Code, Data (NO cite or doi) -->
+    <div class="btn-links" style="margin-bottom: 0.5em;">
+      {{ with $pdf }}
+        <a class="btn btn-outline-primary btn-sm" href="{{ . | relURL }}" target="_blank" rel="noopener">PDF</a>
+      {{ end }}
+      {{ with $url }}
+        <a class="btn btn-outline-primary btn-sm" href="{{ . }}" target="_blank" rel="noopener">Website</a>
+      {{ end }}
+      {{ with $code }}
+        <a class="btn btn-outline-primary btn-sm" href="{{ . }}" target="_blank" rel="noopener">Code</a>
+      {{ end }}
+      {{ with $data }}
+        <a class="btn btn-outline-primary btn-sm" href="{{ . }}" target="_blank" rel="noopener">Data</a>
+      {{ end }}
+    </div>
+
+    <!-- Optionally, add summary/abstract if desired
+    {{ with $item.Params.summary }}
+      <div class="article-style">{{ . | markdownify | emojify }}</div>
+    {{ end }}
+    -->
+  </div>
+</div>
