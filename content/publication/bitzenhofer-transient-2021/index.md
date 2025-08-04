@@ -28,7 +28,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Neuron*'
+publication: 'Neuron'
 publication_short: ''
 
 doi: 10.1016/j.neuron.2021.02.011
@@ -51,22 +51,17 @@ featured: false
 # Links
 url_pdf: ''
 url_code: ''
-url_dataset: ''
+url_dataset: 'https://gin.g-node.org/Jastyn/Early_activity_is_critical_for_prefrontal_development'
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
 image:
-  caption: ''
+  caption: 'Graphical abstract of the paper'
   focal_point: ''
   preview_only: false
 
@@ -77,8 +72,4 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 links:
-- name: URL
-  url: https://www.cell.com/neuron/abstract/S0896-6273(21)00085-4
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

@@ -29,7 +29,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Journal of Neuroscience*'
+publication: 'Journal of Neuroscience'
 publication_short: ''
 
 doi: 10.1523/JNEUROSCI.3981-16.2017
@@ -90,15 +90,11 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
 
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
 image:
-  caption: ''
+  caption: 'Major difference between the microglia of control and chronic sleep-restricted mice'
   focal_point: ''
   preview_only: false
 
@@ -108,9 +104,5 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: URL
-  url: https://www.jneurosci.org/content/37/21/5263
----
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+---
