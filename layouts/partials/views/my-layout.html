@@ -11,7 +11,7 @@
 {{ $code := $item.Params.code }}
 {{ $data := $item.Params.data }}
 
-<div class="publication-row" style="display: flex; align-items: flex-start; gap: 2em; width: 95%; margin: 0 auto; font-size: 80%;">
+<div class="publication-row" style="display: flex; font-size: 80%;">
   <!-- Left: Featured Image (same as compact view) -->
   <div class="ml-3">
     {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
