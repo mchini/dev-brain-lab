@@ -3,7 +3,7 @@ title: ""
 date: 2025-07-31
 # Add categories, tags, or menu if you wish
 featured: false
-show_author: false
+author: ''
 
 # tags: ["postdoc", "neuroscience", "ASD", "electrophysiology", "computational", "system", "experimental", "opportunities"]
 ---
