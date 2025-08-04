@@ -8,25 +8,24 @@
 
 {{ $pdf := index $item.Params "pdf" }}
 {{ $url := $item.Params.url }}
-{{ $code := $item.Params.code }}
-{{ $data := $item.Params.data }}
+{{ $code := $item.Params.url-code }}
+{{ $data := $item.Params.url-data }}
 
 <div class="publication-row" style="display: flex; align-items: flex-start; gap: 2em; width: 95%; margin: 0 auto; font-size: 80%;">
-  <!-- Left: Featured Image -->
-  <div class="pub-image" style="flex: 1; display: flex; align-items: flex-start;">
+  <!-- Left: Featured Image (same logic as compact view) -->
+  <div class="pub-image" style="flex: 1; min-width: 150px; max-width: 150px;">
     {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
     {{ with $resource }}
-      {{ $image := .Resize "300x" }}
+      {{ $image := .Resize "150x" }}
       {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-      <a style="width: 100%" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-        <img src="{{ $image.RelPermalink }}"
-             style="width: 100%; max-height: 11em; object-fit: contain; display: block;"
-             alt="{{ $item.Title }}" loading="lazy">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+        <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+            alt="{{ $item.Title }}" loading="lazy" style="display: block;">
       </a>
     {{ end }}
   </div>
 
-  <!-- Right: Metadata -->
+  <!-- Right: Metadata and buttons -->
   <div class="pub-meta" style="flex: 4; display: flex; flex-direction: column; justify-content: flex-start;">
     <!-- Title -->
     <div class="section-subheading article-title" style="font-size: 2em; font-weight: bold; margin-bottom: 0.25em;">
@@ -47,7 +46,7 @@
       </div>
     {{ end }}
 
-    <!-- Buttons: Only PDF, URL, Code, Data (NO cite or doi) -->
+    <!-- Buttons: Only PDF, URL, Code, Data -->
     <div class="btn-links" style="margin-bottom: 0.5em;">
       {{ with $pdf }}
         <a class="btn btn-outline-primary btn-sm" href="{{ . | relURL }}" target="_blank" rel="noopener">PDF</a>
@@ -62,11 +61,5 @@
         <a class="btn btn-outline-primary btn-sm" href="{{ . }}" target="_blank" rel="noopener">Data</a>
       {{ end }}
     </div>
-
-    <!-- Optionally, add summary/abstract if desired
-    {{ with $item.Params.summary }}
-      <div class="article-style">{{ . | markdownify | emojify }}</div>
-    {{ end }}
-    -->
   </div>
 </div>
