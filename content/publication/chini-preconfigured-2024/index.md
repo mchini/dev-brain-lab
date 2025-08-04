@@ -32,7 +32,18 @@ publication_short: ''
 
 doi: 10.1016/j.celrep.2024.114267
 
-abstract: ''
+abstract: 'In the adult brain, structural and functional parameters, such as synaptic sizes and neuronal firing rates, 
+follow right-skewed and heavy-tailed distributions. While this organization is thought to have significant 
+implications, its development is still largely unknown. Here, we address this knowledge gap by investigating 
+a large-scale dataset recorded from the prefrontal cortex and the olfactory bulb of mice aged 4–60 postnatal days. 
+We show that firing rates and spike train interactions have a largely stable distribution shape throughout the 
+first 60 postnatal days and that the prefrontal cortex displays a functional small-world architecture. 
+Moreover, early brain activity exhibits an oligarchical organization, where high-firing neurons have hub-like 
+properties. In a neural network model, we show that analogously right-skewed and heavy-tailed synaptic parameters 
+are instrumental to consistently recapitulate the experimental data. Thus, functional and structural parameters 
+in the developing brain are already extremely distributed, suggesting that this organization is preconfigured and 
+not experience dependent.
+'
 
 # Summary. An optional shortened abstract.
 summary: ''
