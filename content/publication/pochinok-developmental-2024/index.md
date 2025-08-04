@@ -68,11 +68,6 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
 image:
@@ -86,9 +81,4 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: URL
-  url: https://www.nature.com/articles/s41467-024-44983-z
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

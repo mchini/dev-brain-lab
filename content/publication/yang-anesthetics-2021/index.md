@@ -34,7 +34,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*PLOS Biology*'
+publication: 'PLOS Biology'
 publication_short: ''
 
 doi: 10.1371/journal.pbio.3001146
@@ -74,23 +74,19 @@ featured: false
 
 # Links
 url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_code: 'https://github.com/mchini/Yang_Chini_et_al'
+url_dataset: 'https://gin.g-node.org/SW_lab/Anesthesia_CA1/'
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
 
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
 image:
-  caption: ''
+  caption: 'Anesthesia is such a mistery..'
   focal_point: ''
   preview_only: false
 
@@ -98,11 +94,4 @@ image:
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
-links:
-- name: URL
-  url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001146
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

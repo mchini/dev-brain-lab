@@ -27,7 +27,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*European Journal of Neuroscience*'
+publication: 'European Journal of Neuroscience'
 publication_short: ''
 
 doi: 10.1111/ejn.14436
@@ -78,10 +78,6 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
 
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
@@ -96,9 +92,4 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: URL
-  url: https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.14436
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
