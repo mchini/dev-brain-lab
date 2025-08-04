@@ -18,7 +18,7 @@
     {{ with $resource }}
       {{ $image := .Resize "300x" }}
       {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="width: 100%;">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="width: 100%">
         <img src="{{ $image.RelPermalink }}"
              style="width: 100%; max-height: 11em; object-fit: contain; display: block;"
              alt="{{ $item.Title }}" loading="lazy">
