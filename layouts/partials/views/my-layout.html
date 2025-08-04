@@ -36,12 +36,11 @@
       <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
     </div>
 
-	{{ if and $item.Params.publication $item.Params.year }}
-	  <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-		<div class="article-meta" style="margin-bottom: 0.5em;">
-		  <strong>{{ $item.Params.publication }}</strong> {{ $item.Params.year }}
-		</div>
-	  </a>
+	{{ if or $item.Params.publication $item.Params.journal }}
+	  <div class="article-meta" style="margin-bottom: 0.5em;">
+		<strong>{{ $item.Params.publication | default $item.Params.journal }}</strong>
+		{{ with $item.Params.year }} {{ . }}{{ end }}
+	  </div>
 	{{ end }}
 
     <div class="stream-meta article-metadata">
