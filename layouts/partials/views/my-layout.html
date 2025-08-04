@@ -28,7 +28,7 @@
 
 <div class="media stream-item view-compact">
   <!-- IMAGE LEFT (was on right in compact view) -->
-  <div class="ml-3">
+  <div class="ml-5">
     {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
     {{ with $resource }}
       {{ $image := .Resize "150x" }}
