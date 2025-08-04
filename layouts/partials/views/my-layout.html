@@ -8,39 +8,42 @@
 
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 
-<div class="publication-row" style="display: flex; align-items: stretch; gap: 2em;">
+<!-- Main row with more horizontal space and global font scale -->
+<div class="publication-row" style="display: flex; align-items: stretch; gap: 2em; width: 95%; margin: 0 auto; font-size: 80%;">
   <!-- Left: Featured Image -->
   <div class="pub-image" style="flex: 1;">
     {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
     {{ with $resource }}
-      {{ $image := .Resize "300x" }} <!-- Adjust size as needed -->
+      {{ $image := .Resize "300x" }}
       {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
       <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-        <img src="{{ $image.RelPermalink }}" 
-             style="width: 100%; height: auto; object-fit: contain; display: block; max-height: 340px;" 
+        <img src="{{ $image.RelPermalink }}"
+             style="width: 100%; height: auto; object-fit: contain; display: block; max-height: 340px;"
              alt="{{ $item.Title }}" loading="lazy">
       </a>
     {{ end }}
   </div>
 
   <!-- Right: Metadata -->
-  <div class="pub-meta" style="flex: 4; display: flex; flex-direction: column; justify-content: start;">
+  <div class="pub-meta" style="flex: 4; display: flex; flex-direction: column; justify-content: flex-start;">
     <!-- Title -->
-    <div class="section-subheading article-title" style="font-size: 1.6em; font-weight: bold; margin-bottom: 0.25em;">
-      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+    <div class="section-subheading article-title" style="font-size: 2em; font-weight: bold; margin-bottom: 0.25em;">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="text-decoration: none; color: inherit;">{{ $item.Title }}</a>
     </div>
 
     <!-- Journal / Date -->
-    <div style="font-size: 1em; color: #666; margin-bottom: 0.2em;">
-      {{ with $item.Params.publication }}<span>{{ . }}</span>{{ end }}
+    <div style="font-size: 1.2em; color: #666; margin-bottom: 0.2em;">
+      {{ with $item.Params.publication }}<span style="font-weight: bold;">{{ . }}</span>{{ end }}
       {{ if and $item.Params.publication $item.Date }}<span> · </span>{{ end }}
       {{ with $item.Date }}<span>{{ . | time.Format "2006" }}</span>{{ end }}
     </div>
 
-    <!-- Authors -->
-    <div style="font-size: 1em; margin-bottom: 0.4em;">
-      {{ partial "page_metadata_authors" $item }}
-    </div>
+    <!-- Authors, rendered inline not clickable -->
+    {{ with $item.Params.authors }}
+      <div style="font-size: 1em; margin-bottom: 0.4em;">
+        {{ delimit . ", " }}
+      </div>
+    {{ end }}
 
     <!-- Buttons -->
     {{ if $has_attachments }}
