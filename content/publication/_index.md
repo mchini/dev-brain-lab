@@ -2,7 +2,7 @@
 title: Publications
 
 # Listing view
-view: card
+view: my-layout
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:

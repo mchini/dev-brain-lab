@@ -1,0 +1,58 @@
+{{ $item := .item }}
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+
+<div class="publication-row" style="display: flex; align-items: stretch; gap: 2em;">
+  <!-- Left: Featured Image -->
+  <div class="pub-image" style="flex: 1;">
+    {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+    {{ with $resource }}
+      {{ $image := .Resize "300x" }} <!-- Adjust size as needed -->
+      {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+        <img src="{{ $image.RelPermalink }}" 
+             style="width: 100%; height: auto; object-fit: contain; display: block; max-height: 340px;" 
+             alt="{{ $item.Title }}" loading="lazy">
+      </a>
+    {{ end }}
+  </div>
+
+  <!-- Right: Metadata -->
+  <div class="pub-meta" style="flex: 4; display: flex; flex-direction: column; justify-content: start;">
+    <!-- Title -->
+    <div class="section-subheading article-title" style="font-size: 1.6em; font-weight: bold; margin-bottom: 0.25em;">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+    </div>
+
+    <!-- Journal / Date -->
+    <div style="font-size: 1em; color: #666; margin-bottom: 0.2em;">
+      {{ with $item.Params.publication }}<span>{{ . }}</span>{{ end }}
+      {{ if and $item.Params.publication $item.Date }}<span> · </span>{{ end }}
+      {{ with $item.Date }}<span>{{ . | time.Format "2006" }}</span>{{ end }}
+    </div>
+
+    <!-- Authors -->
+    <div style="font-size: 1em; margin-bottom: 0.4em;">
+      {{ partial "page_metadata_authors" $item }}
+    </div>
+
+    <!-- Buttons -->
+    {{ if $has_attachments }}
+      <div class="btn-links" style="margin-bottom: 0.5em;">
+        {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      </div>
+    {{ end }}
+
+    <!-- Optionally, add summary/abstract if desired
+    {{ with $item.Params.summary }}
+      <div class="article-style">{{ . | markdownify | emojify }}</div>
+    {{ end }}
+    -->
+  </div>
+</div>
