@@ -64,8 +64,8 @@ featured: false
 
 # Links
 url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_code: 'https://github.com/mchini/Chini_et_al_Preconfigured'
+url_dataset: 'https://gin.g-node.org/mchini/Chini_et_al_Preconfigured'
 url_poster: ''
 url_project: ''
 url_slides: ''
