@@ -28,7 +28,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Scientific Reports*'
+publication: 'Scientific Reports'
 publication_short: ''
 
 doi: 10.1038/srep36804
@@ -66,11 +66,6 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
 image:
@@ -84,9 +79,4 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: URL
-  url: https://www.nature.com/articles/srep36804
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

@@ -33,6 +33,8 @@ author_notes: []
 
 date: '2025-05-01'
 
+doi: https://doi.org/10.1101/2025.05.01.651773
+
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
 publishDate: '2025-07-30T09:57:39.137011Z'
 
@@ -91,8 +93,4 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 links:
-- name: URL
-  url: https://www.biorxiv.org/content/10.1101/2025.05.01.651773v1
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

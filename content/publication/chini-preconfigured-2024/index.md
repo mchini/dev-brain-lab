@@ -18,6 +18,8 @@ author_notes: []
 
 date: '2024-06-01'
 
+doi: https://doi.org/10.1016/j.celrep.2024.114267
+
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
 publishDate: '2025-07-30T09:57:39.127062Z'
 
@@ -83,7 +85,4 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: URL
-  url: https://www.cell.com/cell-reports/abstract/S2211-1247(24)00595-3
 ---
