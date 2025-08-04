@@ -5,6 +5,7 @@ show_author: false
 
 image:
   preview_only: true
+profile: false 
 ---
 
 I am excited to share that, together with Irina Pochinok from the "Hamburg faction" of the lab, I will co-organise two events at the Bernstein Conference 2025 in Frankfurt.
