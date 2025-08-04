@@ -23,7 +23,7 @@ the have been replicated across wildly different species (from worms and flies t
 However, current approaches to estimate timescales from single-unit activity are unstable, especially when the single-unit data is sparse or segmented 
 into short trials. Our new method, iSTTC, overcomes these issues, providing reliable estimates even from sparse or epoched data. 
 It significantly improves accuracy and allows inclusion of many more neurons in analyses, which makes the estimated timescale more representative 
-of the underlying neural circuit. You can try iSTTC on your own data with the code that you find in our [repo](https://github.com/iinnpp/isttc)
+of the underlying neural circuit. You can try iSTTC on your own data with the code that you find in our [repo](https://github.com/iinnpp/isttc).
 
 Something unexpected but important emerged while benchmarking iSTTC: we discovered that the common practice of estimating neural timescales from short, 
 epoched data is very unreliable. Such estimations lead to errors approximately ten times larger than those from long, uninterrupted recordings. 
