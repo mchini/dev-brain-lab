@@ -30,7 +30,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Frontiers in Neural Circuits*'
+publication: 'Frontiers in Neural Circuits'
 publication_short: ''
 
 doi: 10.3389/fncir.2019.00038
@@ -69,7 +69,7 @@ featured: false
 # Links
 url_pdf: ''
 url_code: ''
-url_dataset: ''
+url_dataset: 'https://gin.g-node.org/mchini/Neural_correlates_of_anesthesia_in_newborn_mice_and_humans'
 url_poster: ''
 url_project: ''
 url_slides: ''
@@ -84,7 +84,8 @@ url_video: ''
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
 image:
-  caption: ''
+  caption: 'Even with rigorous xval, using very simple features, we can very accurately predict 
+  anesthesia depth in developing mice.'
   focal_point: ''
   preview_only: false
 
@@ -94,10 +95,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: URL
-  url: 
-    https://www.frontiersin.org/journals/neural-circuits/articles/10.3389/fncir.2019.00038/full
 ---
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+Maybe my favorite paper. Editors disagreed :D

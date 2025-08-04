@@ -30,7 +30,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Scientific Data*'
+publication: 'Scientific Data'
 publication_short: ''
 
 doi: 10.1038/s41597-022-01244-2
@@ -63,18 +63,14 @@ featured: false
 
 # Links
 url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_code: 'https://github.com/mchini/Yang_Chini_et_al'
+url_dataset: 'https://gin.g-node.org/SW_lab/Anesthesia_CA1/'
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
 
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
@@ -89,9 +85,4 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: URL
-  url: https://www.nature.com/articles/s41597-022-01244-2
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

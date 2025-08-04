@@ -34,7 +34,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Neuron*'
+publication: 'Neuron'
 publication_short: ''
 
 doi: 10.1016/j.neuron.2019.09.042
@@ -61,17 +61,13 @@ featured: false
 # Links
 url_pdf: ''
 url_code: ''
-url_dataset: ''
+url_dataset: 'https://gin.g-node.org/mchini/Resolving_and_rescuing_developmental_miswiring_in_a_mouse_model_of_cognitive_impairment'
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
 
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
@@ -86,9 +82,5 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: URL
-  url: https://www.cell.com/neuron/abstract/S0896-6273(19)30845-1
----
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+---

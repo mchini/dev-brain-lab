@@ -53,10 +53,10 @@ publication_types:
 - manuscript
 
 # Publication name and optional abbreviated publication name.
-publication: '*bioRxiv*'
+publication: 'bioRxiv'
 publication_short: ''
 
-doi: 10.1101/2023.12.29.573646
+doi: https://www.biorxiv.org/content/10.1101/2023.12.29.573646v2
 
 abstract: Neuronal firing sequences are thought to be the basic building blocks of
   neural coding and information broadcasting within the brain. However, when sequences
@@ -83,7 +83,7 @@ featured: false
 
 # Links
 url_pdf: ''
-url_code: ''
+url_code: 'https://github.com/braingeneers/Protosequences'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -91,15 +91,11 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
 
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
 image:
-  caption: ''
+  caption: 'The remarkable self-similarity of proto-sequences in brain organoids'
   focal_point: ''
   preview_only: false
 
@@ -109,9 +105,5 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: URL
-  url: https://www.biorxiv.org/content/10.1101/2023.12.29.573646v2
----
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+---

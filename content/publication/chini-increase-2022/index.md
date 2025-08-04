@@ -26,7 +26,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*eLife*'
+publication: 'eLife'
 publication_short: ''
 
 doi: 10.7554/eLife.78811
@@ -66,22 +66,16 @@ featured: false
 # Links
 url_pdf: ''
 url_code: ''
-url_dataset: ''
+url_dataset: 'https://gin.g-node.org/mchini/development_EI_decorrelation'
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
 # Publication image
-# Add an image named `featured.jpg/png` to your page's folder then add a caption below.
 image:
-  caption: ''
+  caption: 'Massive 1/f shift over development in the mouse PFC'
   focal_point: ''
   preview_only: false
 
@@ -91,7 +85,4 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: URL
-  url: https://doi.org/10.7554/eLife.78811
 ---
