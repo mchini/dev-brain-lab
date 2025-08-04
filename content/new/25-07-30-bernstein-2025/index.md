@@ -8,8 +8,6 @@ image:
 
 I am excited to share that, together with Irina Pochinok from the "Hamburg faction" of the lab, I will co-organise two events at the Bernstein Conference 2025 in Frankfurt.
 
-![Bernstein logo](bernstein.png)
-
 Both events are centered around [CON<sup>2</sup>PHYS](https://gin.g-node.org/mchini/CON2PHYS), a collaborative study on 
 CONceptual CONsistency in electroPHYSiology, 
 a project that is near and dear to my heart. CON<sup>2</sup>PHYS is an attempt at quantifying whether when "we" electrophysiologists 
@@ -22,6 +20,8 @@ Only for certain concepts? Time will tell.
 Does this sound interesting to you? Do you want to know more or participate in the study? You're still on time to do it! The project 
 will launch around the Bernstein Conference, participation will be open to everyone, and submissions will be accepted for ~9-12 months.
 All details are available [here](https://gin.g-node.org/mchini/CON2PHYS)
+
+![Bernstein logo](bernstein.png)
 
 ### PhD Symposium – 28 September 2025
 The ["Consensus" PhD symposium](https://bernstein-network.de/en/bernstein-conference/early-career-scientists/phd-symposium/) 
