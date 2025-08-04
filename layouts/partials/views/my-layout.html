@@ -36,12 +36,34 @@
       <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
     </div>
 
-	{{ if or $item.Params.publication $item.Params.journal }}
+	{{ $journal := $item.Params.publication | default $item.Params.journal }}
+	{{ $date := $item.Params.date }}
+	{{ $year := "" }}
+	{{ if $item.Params.year }}
+	  {{ $year = $item.Params.year }}
+	{{ else if $date }}
+	  {{ $year = (time $date).Year }}
+	{{ end }}
+
+	{{ if $journal }}
 	  <div class="article-meta" style="margin-bottom: 0.5em;">
-		{{ $item.Params.publication | default $item.Params.journal }}
-		{{ with $item.Params.date }} {{ . }}{{ end }}
+		<strong>{{ $journal }}</strong>
+		{{ if $year }} {{ $year }}{{ end }}
 	  </div>
 	{{ end }}
+
+    <div class="stream-meta article-metadata">
+      {{ if eq $item.Type "event" }}
+        <div>
+          <span>
+            {{ partial "functions/get_event_dates" $item }}
+          </span>
+          {{ with $item.Params.location }}
+            <span class="middot-divider"></span>
+            <span>{{ . }}</span>
+          {{ end }}
+        </div>
+      {{ end }}
 
       {{ if and $show_authors_only $item.Params.authors }}
         <div>
