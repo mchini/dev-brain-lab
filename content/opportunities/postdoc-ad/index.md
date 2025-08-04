@@ -2,7 +2,6 @@
 title: ""
 date: 2025-07-31
 # Add categories, tags, or menu if you wish
-# categories: ["Opportunities"]
 # tags: ["postdoc", "neuroscience", "ASD", "electrophysiology", "computational", "system", "experimental", "opportunities"]
 ---
 
