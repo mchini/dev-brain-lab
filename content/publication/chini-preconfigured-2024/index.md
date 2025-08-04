@@ -27,10 +27,8 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Cell Reports*'
+publication: 'Cell Reports'
 publication_short: ''
-
-doi: 10.1016/j.celrep.2024.114267
 
 abstract: 'In the adult brain, structural and functional parameters, such as synaptic sizes and neuronal firing rates, 
 follow right-skewed and heavy-tailed distributions. While this organization is thought to have significant 
@@ -72,15 +70,10 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
 image:
-  caption: ''
+  caption: 'Graphical abstract of the paper'
   focal_point: ''
   preview_only: false
 
@@ -94,5 +87,3 @@ links:
 - name: URL
   url: https://www.cell.com/cell-reports/abstract/S2211-1247(24)00595-3
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
