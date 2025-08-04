@@ -8,7 +8,6 @@ date: 2025-07-30
 I am excited to share that, together with Irina Pochinok from the "Hamburg faction" of the lab, I will co-organise two events at the Bernstein Conference 2025 in Frankfurt.
 
 ![Bernstein logo](bernstein.png)
-<!--more-->
 
 Both events are centered around [CON<sup>2</sup>PHYS](https://gin.g-node.org/mchini/CON2PHYS), a collaborative study on 
 CONceptual CONsistency in electroPHYSiology, 
