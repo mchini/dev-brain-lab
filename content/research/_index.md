@@ -3,7 +3,7 @@ title: ""
 # date: 2025-07-31
 share: false
 description: "Research lines in the lab"
-type: page 
+type: landing 
 layout: single
 ---
 
