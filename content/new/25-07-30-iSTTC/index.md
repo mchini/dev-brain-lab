@@ -7,7 +7,7 @@ image:
 profile: false 
 ---
 
-We are very happy to share our latest [preprint](https://www.biorxiv.org/content/10.1101/2025.08.01.668071v1) introducing iSTTC, 
+We are very excited to share our latest [preprint](https://www.biorxiv.org/content/10.1101/2025.08.01.668071v1) introducing iSTTC, 
 a powerful new tool for accurately measuring intrinsic neural timescales from single-unit activity datasets. 
 This work was spearheaded by Irina Pochinok, a PhD student in Hamburg, in the institute of Ileana Hanganu-Opatz.
 
