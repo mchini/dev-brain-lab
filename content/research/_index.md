@@ -83,7 +83,7 @@ or if they are instead largely preconfigured by genetic and developmental progra
   </a>
   <div style="font-size:0.75em; margin-top:0.5em;">
     <span style="font-size:1em; color:#555;">
-      Remarkably self-similar protosequences of single unit firing emerge also in a system that is entirely devoid of any interaction with the "outside world" such as a brain organoid.
+      Remarkably self-similar protosequences emerge also in a system that is entirely devoid of any interaction with the "outside world", such as a brain organoid.
 	  This aligns with the view that much of brain development is "preconfigured".<br>
     </span>
   </div>
