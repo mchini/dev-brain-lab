@@ -20,40 +20,20 @@ Previous research from our team and others demonstrated that PV disruption leads
 In turn, this impairs the decorrelation of brain activity, and compromises the emergence of rhythmic phenomena such as gamma oscillations and hippocampal ripples. 
 Ultimately, these network-level disruptions have significant implications for behavior.
 
-<table>
-  <tr>
-    <td>
-      <img src="1f-mouse.jpg" width="220"><br>
-      The increase in the 1/f exponent in developing mice is an indirect proxy for a shift of E-I ratio towards inhibition.<br>
+<div style="text-align:center; margin-bottom: 2em;">
+  <a href="/images/1f-decorr-nn.png" target="_blank">
+    <img src="1f-decorr-nn.png" alt="Computational model: inhibition and decorrelation" style="max-width:100%; border-radius: 1em; box-shadow:0 4px 18px #0002;">
+  </a>
+  <div style="font-size:1.2em; margin-top:0.5em;">
+    <strong>Computational model: inhibition and decorrelation</strong><br>
+    <span style="font-size:1em; color:#555;">
+      Using spiking neural networks, we show that a shift towards inhibition leads to an increase in 1/f ratio (our preferred proxy), a decorrelation of spiking activity and the 
+	  emergence of hippocampal ripples (see Pochinok et al., 2024). All these predictions were experimentally confirmed.<br>
       <a href="https://elifesciences.org/articles/78811" target="_blank">Chini et al., 2022</a>
-    </td>
-    <td>
-      <img src="1f-neonate.png" width="220"><br>
-      We see exactly the same 1/f increase also in multiple EEG datasets recorded in neonates!<br>
-      <a href="https://elifesciences.org/articles/78811" target="_blank">Chini et al., 2022</a>
-    </td>
-    <td>
-      <img src="1f-decorr-nn.png" width="220"><br>
-      In a spiking neural network model, a shift towards inhibition leads to decorrelation of spiking activity.<br>
-      <a href="https://elifesciences.org/articles/78811" target="_blank">Chini et al., 2022</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="ripple.png" width="220"><br>
-      In neonatal mice, a shift in E-I ratio drives the emergence of hippocampal ripples.<br>
-      <a href="https://www.nature.com/articles/s41467-024-44983-z" target="_blank">Pochinok et al., 2024</a>
-    </td>
-    <td>
-      <img src="gamma.png" width="220"><br>
-      If PV don't develop correctly, this leads to altered gamma oscillations.<br>
-      <a href="https://www.cell.com/neuron/fulltext/S0896-6273(21)00085-4" target="_blank">Bitzenhofer et al., 2021</a>
-    </td>
-    <td>
-      <!-- Vuota, oppure aggiungi altra immagine -->
-    </td>
-  </tr>
-</table>
+    </span>
+  </div>
+</div>
+
 
 
 Our ultimate goal is to establish clear links between genetic mutations and altered developmental programs on the one hand, and circuit-level dysfunction, network dynamics, and behavioral phenotypes on the other. 
