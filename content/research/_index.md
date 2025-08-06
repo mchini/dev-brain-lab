@@ -22,11 +22,13 @@ Ultimately, these network-level disruptions have significant implications for be
 
 {{< gallery >}}
 {{< figure src="1f-mouse.jpg" caption="The increase in the 1/f exponent in developing mice is an indirect
-proxy for a shift of E-I ratio towards inhibition. From [Chini et al., 2022](https://elifesciences.org/articles/78811)" >}}
+proxy for a shift of E-I ratio towards inhibition. From [Chini et al., 2022](https://elifesciences.org/articles/78811) " >}}
 {{< figure src="1f-neonate.png" caption="We see exactly the same 1/f increase also in multiple EEG datasets recorded
-in neonates! From [Chini et al., 2022](https://elifesciences.org/articles/78811)" >}}
-{{< figure src="1f-decorr-nn.png" caption="Figura 1A" >}}
-{{< figure src="ripple.png" caption="Figura 1A" >}}
+in neonates! From [Chini et al., 2022](https://elifesciences.org/articles/78811) " >}}
+{{< figure src="1f-decorr-nn.png" caption="Using spiking neural networks, we show that a shift towards inhibition leads to
+decorrelation of spiking activity From [Chini et al., 2022](https://elifesciences.org/articles/78811) " >}}
+{{< figure src="ripple.png" caption="In [Pochinok et al., 2024](https://www.nature.com/articles/s41467-024-44983-z),
+we show that the shift in E-I ratio drives the emergence of hippocampal ripples" >}}
 {{< figure src="gamma.png" caption="Figura 1A" >}}
 {{< /gallery >}}
 
