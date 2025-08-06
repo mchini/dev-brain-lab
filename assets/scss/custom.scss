@@ -1,3 +1,12 @@
 .container {
   max-width: 90%; /* Adjust this percentage as needed */
 }
+
+/* Sets the width for single pages like /research/ */
+.article-container {
+  max-width: 90%; /* Adjust percentage as needed */
+}
+
+.article-style, .universal-wrapper, .prose, .content {
+  text-align: justify;
+}
