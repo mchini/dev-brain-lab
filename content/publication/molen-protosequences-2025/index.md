@@ -56,7 +56,7 @@ publication_types:
 publication: 'bioRxiv'
 publication_short: ''
 
-doi: https://www.biorxiv.org/content/10.1101/2023.12.29.573646v2
+doi: https://doi.org/10.1101/2023.12.29.573646
 
 abstract: Neuronal firing sequences are thought to be the basic building blocks of
   neural coding and information broadcasting within the brain. However, when sequences

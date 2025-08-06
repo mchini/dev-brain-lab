@@ -77,6 +77,18 @@ Our lab investigates the fundamental question of how innate neural architecture 
 Central to this research is the longstanding question on whether neural networks and behaviors emerge gradually through interactions with the environment, 
 or if they are instead largely preconfigured by genetic and developmental programs prior to sensory experience.
 
+<div style="text-align:center; margin-bottom: 2em;">
+  <a href="https://www.biorxiv.org/content/10.1101/2023.12.29.573646v2" target="_blank">
+    <img src="protosequences.png" alt="isttc" style="max-width:80%">
+  </a>
+  <div style="font-size:0.75em; margin-top:0.5em;">
+    <span style="font-size:1em; color:#555;">
+      Remarkably self-similar protosequences of single unit firing emerge also in a system that is entirely devoid of any interaction with the "outside world" such as a brain organoid.
+	  This aligns with the view that much of brain development is "preconfigured".<br>
+    </span>
+  </div>
+</div>
+
 At the behavioral level, we focus on innate survival-relevant behaviors, such as light avoidance and ultrasonic vocalizations, to understand whether higher-order cortical areas like the prefrontal cortex 
 actively participate in their regulation from birth, despite previous assumptions of delayed maturation. Our research reveals that these cortical regions play an unexpectedly early and active role, 
 directly influencing innate behaviors long before sensory systems are fully mature.
@@ -96,9 +108,9 @@ This lack of conceptual consensus can have sneaky consequences, because nominall
 nonetheless all acceptable (i.e., "defensible" from a peer-review perspective). This can obscure (or amplify!) scientific disagreements around these murky concepts and, 
 ultimately, slow scientific progress.
 
-To bring this issue into light, we initiated CON²PHYS, a meta-science project explicitly designed to measure and quantify conceptual variability within the neuroscience community. 
+To bring this issue into light, we initiated [CON²PHYS](https://gin.g-node.org/mchini/CON2PHYS), a meta-science project explicitly designed to measure and quantify conceptual variability within the neuroscience community. 
 Participants at all career stages will be invited to independently analyze a common, carefully curated electrophysiological dataset, responding to multiple-choice questions designed to test the extent to which 
 they agree on how to interpret and implement various core system-neuroscience concepts. 
 
-The ultimate objective of CON²PHYS is not only diagnostic but also actionable. By identifying where conceptual inconsistencies most significantly impact research outcomes, 
+The ultimate objective of [CON²PHYS](https://gin.g-node.org/mchini/CON2PHYS) is not only diagnostic but also actionable. By identifying where conceptual inconsistencies most significantly impact research outcomes, 
 we can focus community-driven consensus-building efforts precisely where they're needed.
