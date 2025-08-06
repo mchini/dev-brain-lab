@@ -54,6 +54,18 @@ Factors such as the composition of glutamate receptors, interneuron diversity, a
 Our research seeks to address this gap by examining ITs through the lens of neural development, a natural setting in which many of these properties evolve in physiological conditions, 
 providing unique insights without requiring artificial experimental manipulations.
 
+<div style="text-align:center; margin-bottom: 2em;">
+  <a href="https://www.biorxiv.org/content/10.1101/2025.08.01.668071v1" target="_blank">
+    <img src="isttc.png" alt="isttc" style="max-width:100%">
+  </a>
+  <div style="font-size:0.75em; margin-top:0.5em;">
+    <span style="font-size:1em; color:#555;">
+      To estimate ITs on single-unit data of neonatal mice, we developed our own method: iSTTC. iSTTC has several critical advantages compared to current state-of-the-art approaches
+	  for IT estimation. Most crucial for our purpose, it provides much more accurate IT estimations on low-firing and bursty spike trains, typical conditions for early brain development.<br>
+    </span>
+  </div>
+</div>
+
 By combining experimental and computational methodologies, we aim not only to uncover the developmental logic governing IT maturation but also to establish ITs as powerful biomarkers capable of informing 
 the underlying architecture of neural circuits.
 
