@@ -20,6 +20,16 @@ Previous research from our team and others demonstrated that PV disruption leads
 In turn, this impairs the decorrelation of brain activity, and compromises the emergence of rhythmic phenomena such as gamma oscillations and hippocampal ripples. 
 Ultimately, these network-level disruptions have significant implications for behavior.
 
+{{< gallery >}}
+{{< figure src="1f-mouse.jpg" caption="The increase in the 1/f exponent in developing mice is an indirect
+proxy for a shift of E-I ratio towards inhibition. From [Chini et al., 2022](https://elifesciences.org/articles/78811)" >}}
+{{< figure src="1f-neonate.png" caption="We see exactly the same 1/f increase also in multiple EEG datasets recorded
+in neonates! From [Chini et al., 2022](https://elifesciences.org/articles/78811)" >}}
+{{< figure src="1f-decorr-nn.png" caption="Figura 1A" >}}
+{{< figure src="ripple.png" caption="Figura 1A" >}}
+{{< figure src="gamma.png" caption="Figura 1A" >}}
+{{< /gallery >}}
+
 Our ultimate goal is to establish clear links between genetic mutations and altered developmental programs on the one hand, and circuit-level dysfunction, network dynamics, and behavioral phenotypes on the other. 
 By elucidating these connections in mouse models of neurodevelopmental disorders, we aim to identify translational biomarkers that can inform early diagnosis and targeted interventions in neurodevelopmental disorders.
 
