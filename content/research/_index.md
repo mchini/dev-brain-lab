@@ -21,15 +21,13 @@ In turn, this impairs the decorrelation of brain activity, and compromises the e
 Ultimately, these network-level disruptions have significant implications for behavior.
 
 <div style="text-align:center; margin-bottom: 2em;">
-  <a href="/images/1f-decorr-nn.png" target="_blank">
-    <img src="1f-decorr-nn.png" alt="Computational model: inhibition and decorrelation" style="max-width:100%; border-radius: 1em; box-shadow:0 4px 18px #0002;">
+  <a href="https://elifesciences.org/articles/78811" target="_blank">
+    <img src="1f-decorr-nn.png" alt="Computational model: inhibition and decorrelation" style="max-width:100%">
   </a>
-  <div style="font-size:1.2em; margin-top:0.5em;">
-    <strong>Computational model: inhibition and decorrelation</strong><br>
+  <div style="font-size:0.75em; margin-top:0.5em;">
     <span style="font-size:1em; color:#555;">
-      Using spiking neural networks, we show that a shift towards inhibition leads to an increase in 1/f ratio (our preferred proxy), a decorrelation of spiking activity and the 
+      Using spiking neural networks, we show that a shift towards inhibition leads to an increase in 1/f ratio (our preferred proxy), a decorrelation of spiking activity, and the 
 	  emergence of hippocampal ripples (see Pochinok et al., 2024). All these predictions were experimentally confirmed.<br>
-      <a href="https://elifesciences.org/articles/78811" target="_blank">Chini et al., 2022</a>
     </span>
   </div>
 </div>
