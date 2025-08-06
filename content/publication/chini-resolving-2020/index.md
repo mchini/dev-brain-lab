@@ -39,7 +39,7 @@ publication_short: ''
 
 doi: 10.1016/j.neuron.2019.09.042
 
-abstract: ''
+abstract: 'Cognitive deficits, core features of mental illness, largely result from dysfunction of prefrontal networks. This dysfunction emerges during early development, before a detectable behavioral readout, yet the cellular elements controlling the abnormal maturation are still unknown. Here, we address this open question by combining in vivo electrophysiology, optogenetics, neuroanatomy, and behavioral assays during development in mice mimicking the dual genetic-environmental etiology of psychiatric disorders. We report that pyramidal neurons in superficial layers of the prefrontal cortex are key elements causing disorganized oscillatory entrainment of local circuits in beta-gamma frequencies. Their abnormal firing rate and timing relate to sparser dendritic arborization and lower spine density. Administration of minocycline during the first postnatal week, potentially acting via microglial cells, rescues the neuronal deficits and restores pre-juvenile cognitive abilities. Elucidation of the cellular substrate of developmental miswiring causing later cognitive deficits opens new perspectives for identification of neurobiological targets amenable to therapies.'
 
 # Summary. An optional shortened abstract.
 summary: ''

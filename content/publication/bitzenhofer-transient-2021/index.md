@@ -33,7 +33,7 @@ publication_short: ''
 
 doi: 10.1016/j.neuron.2021.02.011
 
-abstract: ''
+abstract: 'Disturbed neuronal activity in neuropsychiatric pathologies emerges during development and might cause multifold neuronal dysfunction by interfering with apoptosis, dendritic growth, and synapse formation. However, how altered electrical activity early in life affects neuronal function and behavior in adults is unknown. Here, we address this question by transiently increasing the coordinated activity of layer 2/3 pyramidal neurons in the medial prefrontal cortex of neonatal mice and monitoring long-term functional and behavioral consequences. We show that increased activity during early development causes premature maturation of pyramidal neurons and affects interneuronal density. Consequently, altered inhibitory feedback by fast-spiking interneurons and excitation/inhibition imbalance in prefrontal circuits of young adults result in weaker evoked synchronization of gamma frequency. These structural and functional changes ultimately lead to poorer mnemonic and social abilities. Thus, prefrontal activity during early development actively controls the cognitive performance of adults and might be critical for cognitive symptoms in neuropsychiatric diseases.'
 
 # Summary. An optional shortened abstract.
 summary: ''

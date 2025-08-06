@@ -22,7 +22,7 @@ Ultimately, these network-level disruptions have significant implications for be
 
 <div style="text-align:center; margin-bottom: 2em;">
   <a href="https://elifesciences.org/articles/78811" target="_blank">
-    <img src="1f-decorr-nn.png" alt="Computational model: inhibition and decorrelation" style="max-width:100%">
+    <img src="1f-decorr-nn.png" alt="Computational model: inhibition and decorrelation" style="max-width:80%">
   </a>
   <div style="font-size:0.75em; margin-top:0.5em;">
     <span style="font-size:1em; color:#555;">
@@ -56,7 +56,7 @@ providing unique insights without requiring artificial experimental manipulation
 
 <div style="text-align:center; margin-bottom: 2em;">
   <a href="https://www.biorxiv.org/content/10.1101/2025.08.01.668071v1" target="_blank">
-    <img src="isttc.png" alt="isttc" style="max-width:100%">
+    <img src="isttc.png" alt="isttc" style="max-width:80%">
   </a>
   <div style="font-size:0.75em; margin-top:0.5em;">
     <span style="font-size:1em; color:#555;">
