@@ -23,29 +23,29 @@ Ultimately, these network-level disruptions have significant implications for be
 <table>
   <tr>
     <td>
-      <img src="/images/1f-mouse.jpg" width="220"><br>
+      <img src="1f-mouse.jpg" width="220"><br>
       The increase in the 1/f exponent in developing mice is an indirect proxy for a shift of E-I ratio towards inhibition.<br>
       <a href="https://elifesciences.org/articles/78811" target="_blank">Chini et al., 2022</a>
     </td>
     <td>
-      <img src="/images/1f-neonate.png" width="220"><br>
+      <img src="1f-neonate.png" width="220"><br>
       We see exactly the same 1/f increase also in multiple EEG datasets recorded in neonates!<br>
       <a href="https://elifesciences.org/articles/78811" target="_blank">Chini et al., 2022</a>
     </td>
     <td>
-      <img src="/images/1f-decorr-nn.png" width="220"><br>
-      Using spiking neural networks, we show that a shift towards inhibition leads to decorrelation of spiking activity.<br>
+      <img src="1f-decorr-nn.png" width="220"><br>
+      In a spiking neural network model, a shift towards inhibition leads to decorrelation of spiking activity.<br>
       <a href="https://elifesciences.org/articles/78811" target="_blank">Chini et al., 2022</a>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="/images/ripple.png" width="220"><br>
-      We show that the shift in E-I ratio drives the emergence of hippocampal ripples.<br>
+      <img src="ripple.png" width="220"><br>
+      In neonatal mice, a shift in E-I ratio drives the emergence of hippocampal ripples.<br>
       <a href="https://www.nature.com/articles/s41467-024-44983-z" target="_blank">Pochinok et al., 2024</a>
     </td>
     <td>
-      <img src="/images/gamma.png" width="220"><br>
+      <img src="gamma.png" width="220"><br>
       If PV don't develop correctly, this leads to altered gamma oscillations.<br>
       <a href="https://www.cell.com/neuron/fulltext/S0896-6273(21)00085-4" target="_blank">Bitzenhofer et al., 2021</a>
     </td>
