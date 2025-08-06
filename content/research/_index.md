@@ -3,8 +3,11 @@ title: ""
 # date: 2025-07-31
 share: false
 description: "Research lines in the lab"
+summary: "Research lines in the lab"
 type: page 
 layout: single
+tags: ["development", "electrophysiology", "parvalbumin", "nature", "nurture", "neural circuits", "neural networks", "timescales", "modeling",
+"CON²PHYS", "conceptual consistency"]
 ---
 
 ### The functional development of inhibitory circuits
