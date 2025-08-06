@@ -17,7 +17,8 @@ disorders. In particular, we are interested in how it impacts inhibitory circuit
 believe to be especially susceptible due to their prolonged and activity-dependent maturation process. 
 
 Previous research from our team and others demonstrated that PV disruption leads to altered developmental shift of the excitation-inhibition (E-I) ratio towards inhibition. 
-In turn, this impairs the decorrelation of brain activity, and compromises the emergence of gamma oscillations. Ultimately, these network-level disruptions have significant implications for behavior.
+In turn, this impairs the decorrelation of brain activity, and compromises the emergence of rhythmic phenomena such as gamma oscillations and hippocampal ripples. 
+Ultimately, these network-level disruptions have significant implications for behavior.
 
 Our ultimate goal is to establish clear links between genetic mutations and altered developmental programs on the one hand, and circuit-level dysfunction, network dynamics, and behavioral phenotypes on the other. 
 By elucidating these connections in mouse models of neurodevelopmental disorders, we aim to identify translational biomarkers that can inform early diagnosis and targeted interventions in neurodevelopmental disorders.
