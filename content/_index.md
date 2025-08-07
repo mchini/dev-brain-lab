@@ -4,8 +4,8 @@ type: landing
 
 sections:
   - block: hero
-    title: Chini Lab: we study how the brain develops
     content:
+	  title: Chini lab: we study how the brain develops
       text: |
       text: |
         <div style="text-align: center; margin-bottom: 1.2em;">
