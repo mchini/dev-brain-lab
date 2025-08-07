@@ -1,5 +1,5 @@
 ---
-title: The Chini Lab
+title: 
 type: landing
 
 sections:

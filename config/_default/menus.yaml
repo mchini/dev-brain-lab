@@ -9,7 +9,7 @@ main:
     weight: 20
   - name: Team
     url: team
-    weight: 20
+    weight: 25
   - name: Publications
     url: publication
     weight: 30
