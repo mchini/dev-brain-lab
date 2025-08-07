@@ -1,5 +1,5 @@
 ---
-title: "Cacca"
+title:
 type: landing
 
 sections:
