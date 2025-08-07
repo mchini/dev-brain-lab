@@ -33,8 +33,8 @@ marketing:
 
 header:
   navbar:
-    enable: true
-    blox: 'navbar'
+    block: my-navbar
+    enable: true    
     align: r
     show_logo: true
     show_language: false
