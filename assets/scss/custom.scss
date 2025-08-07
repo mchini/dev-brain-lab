@@ -21,18 +21,3 @@
 .navbar-nav li a[href*="opportunities"] {
   font-weight: bold;
 }
-
-.lab-title {
-  font-weight: bold;
-  font-size: 1.2em;
-  margin-left: 1em;
-  white-space: nowrap;
-}
-@media (max-width: 800px) {
-  .lab-title {
-    font-size: 1em;
-    margin-left: 0.5em;
-    white-space: normal;
-    text-align: left;
-  }
-}
