@@ -16,3 +16,8 @@
     padding-right: 0.5em !important;
   }
 }
+
+/* Grassetto solo per Opportunities nel menu */
+.navbar-nav li a[href*="opportunities"] {
+  font-weight: bold;
+}
