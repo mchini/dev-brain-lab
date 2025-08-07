@@ -1,6 +1,120 @@
 <header id="site-header" class="header">
-  <nav class="navbar px-3 flex justify-left">
+  <nav class="navbar px-3 flex flex-row items-center w-full">
+    <!-- Logo + Scritta -->
+    <div class="flex items-center">
+      <a class="navbar-brand" href="{{ site.Home.RelPermalink }}" title="{{ site.Title }}">
+        {{- $logo_filename := site.Params.header.navbar.logo.filename -}}
+        {{ with $logo_filename }}
+          {{- $logo:= resources.Get (path.Join "media" $logo_filename) -}}
+          {{ with $logo }}
+            {{ $logoExt := path.Ext . }}
+            {{ if eq $logoExt `.svg` }}
+              {{- $logo.Content | safeHTML -}}
+            {{else}}
+              {{ $logo_img := ($logo.Process "Resize x36 webp") }}
+              <img
+                fetchpriority="high"
+                decoding="async"
+                class=""
+                width="{{ $logo_img.Width }}"
+                height="{{ $logo_img.Height }}"
+                src="{{ $logo_img.RelPermalink }}"
+                alt="{{ site.Title }}" />
+            {{end}}
+          {{ else }}
+            {{ warnf "Logo `%s` not found in `assets/media/` folder" $logo_filename }}
+          {{end}}
+        {{ end }}
+        {{ with site.Params.header.navbar.logo.text }}{{.}}{{end}}
+      </a>
+      <span class="lab-title ml-3" style="font-weight:bold; font-size:1.2em; white-space:nowrap;">
+        Chini Lab – Developmental Neuroscience
+      </span>
+    </div>
 
+    <!-- Main menu -->
+    {{ $align_menu := site.Params.header.navbar.align | default "center" }}
+    <ul
+      id="nav-menu"
+      class="navbar-nav hidden lg:flex ml-auto lg:w-auto lg:space-x-2 xl:space-x-8 pb-6 lg:pb-0">
+      {{ $currentPage := . }}
+      {{ range site.Menus.main }}
+        {{ $menuURL := .URL | absLangURL }}
+        {{ $pageURL:= $currentPage.Permalink | absLangURL }}
+        {{ $active := eq $menuURL $pageURL }}
+        {{ if .HasChildren }}
+          <li class="nav-item nav-dropdown group relative">
+            <span
+              class="nav-link {{ range .Children }}
+                {{ $childURL := .URL | absLangURL }}
+                {{ $active := eq $childURL $pageURL }}
+                {{ if $active }}active{{ end }}
+              {{ end }} inline-flex items-center">
+              {{ .Name }}
+              <svg class="h-4 w-4 fill-current inline-block" viewBox="0 0 20 20">
+                <path
+                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+              </svg>
+            </span>
+            <ul class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
+              {{ range .Children }}
+                {{ $childURL := .URL | absLangURL }}
+                {{ $active := eq $childURL $pageURL }}
+                {{ $url := "" }}
+                {{- if findRE `^#` .URL -}}
+                  {{- if not $.IsHome -}}
+                    {{- $url = site.Home.RelPermalink -}}
+                  {{- end }}
+                  {{- $url = .URL -}}
+                {{- else -}}
+                  {{- $url = .URL | relLangURL -}}
+                {{- end -}}
+                <li class="nav-dropdown-item">
+                  <a
+                    class="nav-dropdown-link {{ if $active }}active{{- end -}}"
+                    {{ if findRE `^http` .URL }}
+                      target="_blank" rel="noopener"
+                    {{ end }}
+                    href="{{$url}}">
+                    {{ .Name }}
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </li>
+        {{ else }}
+          {{ $url := "" }}
+          {{- if findRE `^#` .URL -}}
+            {{- if not $.IsHome -}}
+              {{- $url = site.Home.RelPermalink -}}
+            {{- end }}
+            {{- $url = .URL -}}
+          {{- else -}}
+            {{- $url = .URL | relLangURL -}}
+          {{- end -}}
+          <li class="nav-item">
+            <a
+              class="nav-link {{ if $active }}active{{- end -}}"
+              {{ if findRE `^http` .URL }}
+                target="_blank" rel="noopener"
+              {{ end }}
+              href="{{$url}}"
+            >{{ .Name }}</a>
+          </li>
+        {{ end }}
+      {{ end }}
+      {{ if site.Params.header.navbar.button.enable }}
+        <li class="mt-4 inline-block lg:hidden">
+          <a
+            class=""
+            href="{{ site.Params.header.navbar.button.url | relLangURL }}">
+            {{ site.Params.header.navbar.button.text }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+
+    <!-- Mobile menu toggler -->
     <input id="nav-toggle" type="checkbox" class="hidden" />
     <label
       for="nav-toggle"
@@ -16,143 +130,7 @@
           transform="rotate(45 10 10)"></polygon>
       </svg>
     </label>
-    {{ $align_menu := site.Params.header.navbar.align | default "center" }}
-    <ul
-      id="nav-menu"
-      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
-      {{ if in (slice "l" "left") $align_menu }}mr-auto ml-6{{ else if (in (slice "r" "right") $align_menu) }}ml-auto mr-6{{end}}">
-      
-      <li class="nav-item !p-0">
-        <a class="navbar-brand" href="{{ site.Home.RelPermalink }}" title="{{ site.Title }}">
-          {{- $logo_filename := site.Params.header.navbar.logo.filename -}}
-          {{ with $logo_filename }}
-            {{- $logo:= resources.Get (path.Join "media" $logo_filename) -}}
-            {{ with $logo }}
-              {{ $logoExt := path.Ext . }}
-              {{ if eq $logoExt `.svg` }}
-                {{- $logo.Content | safeHTML -}}
-              {{else}}
-                {{ $logo_img := ($logo.Process "Resize x36 webp") }}
-                <img
-                  fetchpriority="high"
-                  decoding="async"
-                  class=""
-                  width="{{ $logo_img.Width }}"
-                  height="{{ $logo_img.Height }}"
-                  src="{{ $logo_img.RelPermalink }}"
-                  alt="{{ site.Title }}" />
-              {{end}}
-            {{ else }}
-              {{ warnf "Logo `%s` not found in `assets/media/` folder" $logo_filename }}
-            {{end}}
-          {{ end }}
-          {{ with site.Params.header.navbar.logo.text }}{{.}}{{end}}
-        </a>
-      </li>
-      <li class="nav-item">
-        <span class="nav-link" style="font-weight:bold; font-size:1.2em; cursor:default; white-space:nowrap;">
-          Chini Lab – Developmental Neuroscience
-        </span>
-      </li>
-      {{ $currentPage := . }}
-      {{ range site.Menus.main }}
-      {{ $menuURL := .URL | absLangURL }}
-      {{ $pageURL:= $currentPage.Permalink | absLangURL }}
-      {{ $active := eq $menuURL $pageURL }}
-      {{ if .HasChildren }}
-      <li class="nav-item nav-dropdown group relative">
-            <span
-              class="nav-link {{ range .Children }}
-                {{ $childURL := .URL | absLangURL }}
-                {{ $active := eq $childURL $pageURL }}
-                {{ if $active }}active{{ end }}
-              {{ end }} inline-flex items-center">
-              {{ .Name }}
-              <svg class="h-4 w-4 fill-current inline-block" viewBox="0 0 20 20">
-                <path
-                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-              </svg>
-            </span>
-        <ul
-          class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
-          {{ range .Children }}
-          {{ $childURL := .URL | absLangURL }}
-          {{ $active := eq $childURL $pageURL }}
-          {{ $url := "" }}
-          {{- if findRE `^#` .URL -}}
-            {{- if not $.IsHome -}}
-              {{- $url = site.Home.RelPermalink -}}
-            {{- end }}
-            {{- $url = .URL -}}
-          {{- else -}}
-            {{- $url = .URL | relLangURL -}}
-          {{- end -}}
-          <li class="nav-dropdown-item">
-            <a
-              class="nav-dropdown-link {{ if $active }}active{{- end -}}"
-              {{ if findRE `^http` .URL }}
-              target="_blank" rel="noopener"
-              {{ end }}
-              href="{{$url}}">
-              {{ .Name }}
-            </a>
-          </li>
-          {{ end }}
-        </ul>
-      </li>
-      {{ else }}
-      {{ $url := "" }}
-      {{- if findRE `^#` .URL -}}
-        {{- if not $.IsHome -}}
-          {{- $url = site.Home.RelPermalink -}}
-        {{- end }}
-        {{- $url = .URL -}}
-        {{- else -}}
-        {{- $url = .URL | relLangURL -}}
-      {{- end -}}
-      <li class="nav-item">
-        <a
-          class="nav-link {{ if $active }}active{{- end -}}"
-          {{ if findRE `^http` .URL }}
-          target="_blank" rel="noopener"
-          {{ end }}
-          href="{{$url}}"
-        >{{ .Name }}</a
-        >
-      </li>
-      {{ end }}
-      {{ end }}
-      {{ if site.Params.header.navbar.button.enable }}
-      <li class="mt-4 inline-block lg:hidden">
-        <a
-          class=""
-          href="{{ site.Params.header.navbar.button.url | relLangURL }}">
-          {{ site.Params.header.navbar.button.text }}
-        </a>
-      </li>
-      {{ end }}
-    </ul>
 
-    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
-
-      {{ $show_translations := site.Params.header.navbar.show_translations | default true }}
-      {{ if .IsTranslated | and $show_translations }}
-      <div class="pl-1 mr-5 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200
-            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
-        {{- partial "components/language-chooser.html" (dict "page" .) -}}
-      </div>
-      {{ end }}
-
-      {{ if site.Params.header.navbar.button.enable }}
-      <a
-        href="{{ site.Params.header.navbar.button.url | relLangURL }}"
-        class="inline-block rounded border px-5 py-2 font-semibold transition
-        md:ml-4 px-4 py-1.5 text-sm
-        border-black  hover:bg-black dark:hover:bg-white dark:hover:text-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white
-        hidden lg:inline-block">
-        {{ site.Params.header.navbar.button.text }}
-      </a>
-      {{ end }}
-    </div>
+    <!-- (Icons rimossi) -->
   </nav>
 </header>
