@@ -1,11 +1,10 @@
 ---
-title: ""
+title: "Cacca"
 type: landing
 
 sections:
   - block: hero
     content:
-      title: Chini lab - we study how the brain develops
       text: |
         <div style="text-align: center; margin-bottom: 1.2em;">
           <img src="/media/neural_activity.gif" alt="Neonatal neural activity" style="max-width:100%; border-radius: 18px; box-shadow: 0 4px 18px #0006;">
@@ -20,4 +19,5 @@ sections:
         The video above captures the real-time activity of hundreds of neurons in a healthy mouse. Each circle is a spike, a rare event drowned in an ocean of silence. 
         These long silent phases are a hallmark of early brain development, and it’s just one of the many mysteries that make this period so fascinating. This is what we study in the Chini lab.
         </div>
+
 ---
