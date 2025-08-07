@@ -1,8 +1,18 @@
 .container {
-  max-width: 60%; /* Adjust this percentage as needed */
+  max-width: 70%; // Desktop default
 }
 
 /* Sets the width for single pages like /research/ */
 .article-container {
-  max-width: 60%; /* Adjust percentage as needed */
+  max-width: 70%;
+}
+
+/* --- MOBILE OVERRIDE: pagina più larga su schermi piccoli --- */
+@media (max-width: 600px) {
+  .container,
+  .article-container {
+    max-width: 100vw !important;
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+  }
 }

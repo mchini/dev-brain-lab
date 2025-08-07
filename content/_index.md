@@ -10,7 +10,7 @@ sections:
         <div style="text-align: center; margin-bottom: 1.2em;">
           <img src="/media/neural_activity.gif" alt="Neonatal neural activity" style="max-width:100%; border-radius: 18px; box-shadow: 0 4px 18px #0006;">
           <div style="font-size:0.6em; color: #888; margin-top:0.3em;">
-            Real-time spiking activity recorded in a mouse of 6 days of age.
+            Real-time spiking activity recorded in a mouse 6 days after birth.
           </div>
         </div>
         <br>
