@@ -33,7 +33,7 @@ marketing:
 
 header:
   navbar:
-    block: my-navbar
+    block: 'my-navbar'
     enable: true    
     align: r
     show_logo: true
