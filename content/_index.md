@@ -1,12 +1,11 @@
 ---
-title: 
+title: ""
 type: landing
 
 sections:
   - block: hero
     content:
-	  title: Chini lab: we study how the brain develops
-      text: |
+      title: Chini lab: we study how the brain develops
       text: |
         <div style="text-align: center; margin-bottom: 1.2em;">
           <img src="/media/neural_activity.gif" alt="Neonatal neural activity" style="max-width:100%; border-radius: 18px; box-shadow: 0 4px 18px #0006;">
