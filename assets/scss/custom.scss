@@ -25,11 +25,14 @@
 .lab-title {
   font-weight: bold;
   font-size: 1.2em;
-  margin-bottom: 0.7em;
+  margin-left: 1em;
+  white-space: nowrap;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .lab-title {
     font-size: 1em;
-    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    white-space: normal;
+    text-align: left;
   }
 }
