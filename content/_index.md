@@ -4,6 +4,7 @@ type: landing
 
 sections:
   - block: hero
+    title: Chini Lab: we study how the brain develops
     content:
       text: |
       text: |
