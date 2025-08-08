@@ -24,20 +24,4 @@ sections:
           These long silent phases are a hallmark of early brain development, and it’s just one of the many mysteries that make this period so fascinating. This is what we study in the Chini lab.
         </div>
 
-  - block: feature
-    content: |
-      <div style="text-align:center; margin-top: 2em; margin-bottom: 2em;">
-        <span style="font-size: 1.1em; font-weight: bold;">
-          Where to find us
-        </span>
-        <br><br>
-        <div style="display: flex; justify-content: center; align-items: center; gap: 2em; flex-wrap: wrap; margin-bottom: 1em;">
-          <img src="/media/uliege_logo.png" alt="University of Liège" style="height:55px;">
-          <img src="/media/fnrs_logo.png" alt="FNRS" style="height:55px;">
-        </div>
-        <div style="font-size: 0.95em;">
-          <strong>Chini Lab, GIGA Institute</strong><br>
-          Avenue de l'Hôpital 1, 4000 Liège, Belgium<br>
-          <a href="https://maps.app.goo.gl/SfXkXZcP83SV6FQf7" target="_blank" style="color: #3182ce; text-decoration: underline;">View on Google Maps</a>
-        </div>
-      </div>
+  
