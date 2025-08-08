@@ -34,9 +34,10 @@ sections:
           </span>
           <br><br>
           <div style="margin:0 auto 1.5em auto; font-size:0.98em; line-height:1.5;">
-            The Chini lab has roots in Hamburg at the <a href="https://www.opatzlab.com/" target="_blank" style="color:#3182ce; font-weight:bold;">ZMNH</a>,
-            in the Institute of Ileana Hanganu Opatz, where a part of the team is still located. We are now establishing a new site 
-            at <a href="https://www.giga.uliege.be/" target="_blank" style="color:#3182ce; font-weight:bold;">GIGA Institute</a> in Liège.
+            The Chini lab has roots in Hamburg at the ZMNH, in the <a href="https://www.opatzlab.com/" target="_blank" style="color:#3182ce; font-weight:bold;">lab</a>
+			- now Institute - of Ileana Hanganu Opatz, where a part of the team is still located. We are in the process of establishing a new site 
+            at <a href="https://www.giga.uliege.be/" target="_blank" style="color:#3182ce; font-weight:bold;">GIGA Institute</a> in Liège. The lab in Liège
+            is generously funded by a MISU grant of the FNRS and will start in January 2026.
             <br>
             The address below refers to our new home at GIGA.
           </div>
