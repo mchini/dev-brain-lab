@@ -28,7 +28,7 @@ sections:
   - block:
     content:
       text: |
-        <div style="text-align:center">
+        <div style="text-align:center; margin-top:0; padding-top:0; margin-bottom:2em; position:relative; top:-1.5em;">
           <span style="font-size: 1.1em; font-weight: bold;">
             Where to find us
           </span>
