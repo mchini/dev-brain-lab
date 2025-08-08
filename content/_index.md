@@ -25,7 +25,7 @@ sections:
           These long silent phases are a hallmark of early brain development, and it’s just one of the many mysteries that make this period so fascinating. This is what we study in the Chini lab.
         </div>
 
-  - block: feature
+  - block:
     content:
       text: |
         <div style="text-align:center; margin-top: 2em; margin-bottom: 2em;">
