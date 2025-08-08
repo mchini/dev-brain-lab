@@ -17,7 +17,7 @@ sections:
           </div>
         </div>
         <div style="text-align:center; font-size:1.1em; margin-bottom:1em;">
-          Welcome to the Chini lab website – we study how the brain develops.
+          Welcome to our website – we study how the brain develops.
         </div>
         <div style="font-size:75%;">
           Neurons usually “talk” by sending quick electric signals called spikes. If I asked you to picture your brain falling completely silent for multiple seconds,
@@ -39,9 +39,9 @@ sections:
             <img src="/media/fnrs_logo.png" alt="FNRS" style="height:55px;">
           </div>
           <div style="font-size: 0.95em;">
-            <strong>Chini Lab, GIGA Institute</strong><br>
+            <strong>Chini Lab, GIGA Institute - CHU Liège</strong><br>
             Avenue de l'Hôpital 1, 4000 Liège, Belgium<br>
-            <a href="https://maps.app.goo.gl/SfXkXZcP83SV6FQf7" target="_blank" style="color: #3182ce; text-decoration: underline;">View on Google Maps</a>
+            <a href="https://shorturl.at/FiS28" target="_blank" style="color: #3182ce; text-decoration: underline;">View on Google Maps</a>
           </div>
         </div>
 
