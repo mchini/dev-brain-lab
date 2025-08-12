@@ -3,7 +3,7 @@ title: ""
 type: landing
 
 sections:
-  - block: blank
+  - block:
     content:
       text: |
         <div class="universal-wrapper" style="padding-top:0;">
@@ -27,7 +27,7 @@ sections:
           </div>
         </div>
 
-  - block: blank
+  - block:
     content:
       text: |
         <div class="universal-wrapper" style="margin-top:0; padding-top:0; position:relative; top:-1.5em; text-align:center;">
