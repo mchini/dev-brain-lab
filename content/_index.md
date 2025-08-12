@@ -7,7 +7,7 @@ sections:
     content:
       text: |
         <div class="universal-wrapper" style="padding-top:0;">
-          <div style="font-size:1.3em; font-weight:bold; text-align:center; margin-bottom:0.7em;">
+          <div style="font-size:2em; font-weight:bold; text-align:center; margin-bottom:0.7em;">
             Neural silence and early brain activity
           </div>
           <div style="text-align: center; margin-bottom: 1.2em;">
@@ -16,10 +16,10 @@ sections:
               Real-time spiking activity recorded in a mouse 6 days after birth.
             </div>
           </div>
-          <div style="text-align:center; font-size:1.1em; margin-bottom:1em;">
+          <div style="text-align:center; font-size:1.5em; margin-bottom:1em;">
             Welcome to our website – we study how the brain develops.
           </div>
-          <div style="font-size:75%;">
+          <div style="font-size:0.98em; line-height:1.5;">
             Neurons usually “talk” by sending quick electric signals called spikes. If I asked you to picture your brain falling completely silent for multiple seconds,
             you might think of coma, anesthesia, or even death. Yet, silence is how every brain starts out.
             The video above captures the real-time activity of hundreds of neurons in a healthy mouse. Each circle is a spike, a rare event drowned in an ocean of silence.
