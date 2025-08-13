@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Chini Lab"
 type: landing
 
 sections:
