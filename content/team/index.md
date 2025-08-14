@@ -1,6 +1,7 @@
 ---
-title: People
-date: 2025-07-27
+title: "People"
+summary: "Meet the Chini Lab team at GIGA–ULiège: brain development from a systems neuroscience perspective."
+image: "media/og/team.png"
 
 type: landing
 

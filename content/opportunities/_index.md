@@ -1,6 +1,7 @@
 ---
-title: ""
-# date: 2025-07-31
+title: "Opportunities"
+summary: "Open positions at the Chini Lab, GIGA–ULiège."
+image: "media/og/opportunities.png"
 share: false
 # description: "Current postdoctoral and spontaneous opportunities in the lab."
 type: page 

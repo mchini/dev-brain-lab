@@ -1,12 +1,9 @@
 ---
-title: Latest News
-
+title: "Latest News"
+summary: "Latest news from the Chini Lab, GIGA–ULiège."
+image: "media/og/news.png"
 # Listing view
 view: compact
 type: page 
 
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
 ---

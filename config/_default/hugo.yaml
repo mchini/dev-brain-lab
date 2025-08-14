@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Chini Lab # Website name
-baseURL: "https://www.chinilab.com/"   # use your Primary; change if you kept apex
+baseURL: "https://www.chinilab.com/" 
 enableRobotsTXT: true
 canonifyURLs: true
 

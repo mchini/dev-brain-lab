@@ -1,5 +1,7 @@
 ---
 title: "Chini Lab"
+summary: "Chini Lab at GIGA–ULiège. We study how neural activity emerges in early development with in-vivo electrophysiology and computational neuroscience."
+image: "media/og/home.png"
 type: landing
 
 sections:
