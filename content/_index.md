@@ -1,6 +1,6 @@
 ---
 title: "Chini Lab"
-summary: "Chini Lab at GIGA–ULiège. We study how neural activity emerges in early development from a systems and computational neuroscience perspective."
+summary: "Chini Lab at GIGA–ULiège. We study how neural activity emerges in early development from a systems neuroscience perspective."
 image:
   filename: "media/og/home.png"
 type: landing
@@ -23,7 +23,7 @@ sections:
             Welcome to our website – we study how the brain develops.
           </div>
           <div style="font-size:0.98em;line-height:1.5;">
-            Neurons usually “talk” by sending quick electric signals called spikes. If I asked you to picture your brain falling completely silent for multiple seconds, you might think of coma, anesthesia, or even death. Yet, silence is how every brain starts out. The video above captures the real-time activity of hundreds of neurons in a healthy mouse. Each circle is a spike, a rare event drowned in an ocean of silence. These long silent phases are a hallmark of early brain development, and it’s just one of the many mysteries that make this period so fascinating. This is what we study in the Chini lab.
+            Neurons usually “talk” by sending fast electric signals called spikes. If I asked you to picture your brain falling completely silent for multiple seconds, you might think of coma, anesthesia, or even death. Yet, silence is how every brain starts out. The video above captures the real-time activity of hundreds of neurons in a healthy mouse. Each circle is a spike, a rare event drowned in an ocean of silence. These long silent phases are a hallmark of early brain development, and it’s just one of the many mysteries that make this period so fascinating. This is what we study in the Chini lab.
           </div>
         </div>
 
@@ -37,8 +37,7 @@ sections:
             The Chini lab has roots at the ZMNH in Hamburg, in the <a href="https://www.opatzlab.com/" target="_blank" style="color:#3182ce;font-weight:bold;">lab</a>
             of Ileana Hanganu Opatz, where a part of the team is still located. We are in the process of establishing a new site at
             <a href="https://www.giga.uliege.be/" target="_blank" style="color:#3182ce;font-weight:bold;">GIGA Institute</a> in Liège. The lab in Liège is generously funded by a MISU grant of the FNRS and will start in January 2026. We are looking for new members to
-            <a href="/opportunities/" style="color:#3182ce;font-weight:bold;">join the team</a>.
-            <br>The address below refers to our new home at GIGA.
+            <a href="/opportunities/" style="color:#3182ce;font-weight:bold;">join the team</a>. The address below refers to our new home at GIGA.
           </div>
 
           <div style="font-size:0.95em;margin-top:2.5em;margin-bottom:2.5em;">

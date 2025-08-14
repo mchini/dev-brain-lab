@@ -13,7 +13,7 @@ tags: ["development", "electrophysiology", "parvalbumin", "nature", "nurture", "
 ### The functional development of inhibitory circuits
 
 One of our main interests is understanding how the heterochronicity (i.e. the diversity of timing/speed) of developmental programs is involved in the pathophysiology of psychiatric
-disorders. In particular, we are interested in how it impacts inhibitory circuits, focusing particularly on parvalbumin-expressing (PV) interneurons, which we 
+disorders, and ASD in particular. More specifically, we are interested in how it impacts inhibitory circuits, focusing particularly on parvalbumin-expressing (PV) interneurons, which we 
 believe to be especially susceptible due to their prolonged and activity-dependent maturation process. 
 
 Previous research from our team and others demonstrated that PV disruption leads to altered developmental shift of the excitation-inhibition (E-I) ratio towards inhibition. 
