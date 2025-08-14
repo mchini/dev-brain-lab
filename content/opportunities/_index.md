@@ -8,8 +8,8 @@ image:
 type: page 
 ---
 <div style="height: 14px;"></div>
+
 ## We are hiring!
-<div style="height: 14px;"></div>
 
 We have funding for **two fully-funded FNRS postdoctoral positions** (2+1 years) at GIGA - ULiège:
 
