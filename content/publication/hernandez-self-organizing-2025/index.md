@@ -41,7 +41,7 @@ publishDate: '2025-07-30T09:57:39.137011Z'
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- manuscript
+- preprint
 
 # Publication name and optional abbreviated publication name.
 publication: 'bioRxiv'

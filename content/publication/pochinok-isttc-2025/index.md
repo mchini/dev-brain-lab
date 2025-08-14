@@ -31,4 +31,6 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
+publication_types:
+- preprint
 ---
