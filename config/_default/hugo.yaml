@@ -4,7 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Chini Lab # Website name
-baseURL: 'https://chinilab.com/' # Website URL
+baseURL: "https://www.chinilab.com/"   # use your Primary; change if you kept apex
+enableRobotsTXT: true
+canonifyURLs: true
 
 ############################
 ## LANGUAGE
@@ -24,7 +26,6 @@ summaryLength: 30
 pagination:
   pagerSize: 10
 enableEmoji: true
-enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
