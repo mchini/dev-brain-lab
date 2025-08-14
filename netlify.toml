@@ -11,9 +11,17 @@
 
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  [[context.deploy-preview.headers]]
+    for = "/*"
+    [context.deploy-preview.headers.values]
+      X-Robots-Tag = "noindex, nofollow"
 
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  [[context.branch-deploy.headers]]
+    for = "/*"
+    [context.branch-deploy.headers.values]
+      X-Robots-Tag = "noindex, nofollow"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
@@ -21,22 +29,10 @@
     debug = true
 
 # --- Force the Netlify subdomain to canonical (SEO-safe 301) ---
+# Use a host condition so you don't depend on absolute-from URLs.
 [[redirects]]
-  from = "https://dev-brain.netlify.app/*"   # your Netlify subdomain
-  to   = "https://www.chinilab.com/:splat"   # <-- if www is primary
+  from = "/*"
+  to   = "https://www.chinilab.com/:splat"   # change to https://chinilab.com/:splat if apex is primary
   status = 301
   force  = true
-
-# --- Make Deploy Previews non-indexable ---
-[context.deploy-preview]
-  [[context.deploy-preview.headers]]
-    for = "/*"
-    [context.deploy-preview.headers.values]
-      X-Robots-Tag = "noindex, nofollow"
-
-# --- Make Branch Deploys non-indexable (optional but recommended) ---
-[context.branch-deploy]
-  [[context.branch-deploy.headers]]
-    for = "/*"
-    [context.branch-deploy.headers.values]
-      X-Robots-Tag = "noindex, nofollow"
+  conditions = { Host = ["dev-brain.netlify.app"] }
