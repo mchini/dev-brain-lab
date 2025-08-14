@@ -1,7 +1,8 @@
 ---
 title: "People"
 summary: "Meet the Chini Lab team at GIGA–ULiège: brain development from a systems neuroscience perspective."
-image: "media/og/team.png"
+image:
+  filename: "media/og/team.png"
 
 type: landing
 

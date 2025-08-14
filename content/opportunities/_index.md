@@ -1,8 +1,9 @@
 ---
 title: "Opportunities"
 summary: "Open positions at the Chini Lab, GIGA–ULiège."
-image: "media/og/opportunities.png"
-share: false
+image:
+  filename: "media/og/opportunities.png"
+  share: false
 # description: "Current postdoctoral and spontaneous opportunities in the lab."
 type: page 
 layout: no-title

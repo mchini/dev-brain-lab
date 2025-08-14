@@ -1,8 +1,8 @@
 ---
 title: "Research"
 summary: "What we study in the Chini Lab, GIGA–ULiège."
-image: "media/og/research.png"
-# date: 2025-07-31
+image:
+  filename: "media/og/research.png"
 share: false
 description: "Research lines in the lab"
 type: page 
