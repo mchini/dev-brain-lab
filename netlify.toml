@@ -11,6 +11,7 @@
 
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
   [[context.deploy-preview.headers]]
     for = "/*"
     [context.deploy-preview.headers.values]
@@ -18,6 +19,7 @@
 
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
   [[context.branch-deploy.headers]]
     for = "/*"
     [context.branch-deploy.headers.values]
@@ -28,11 +30,9 @@
   [plugins.inputs]
     debug = true
 
-# --- Force the Netlify subdomain to canonical (SEO-safe 301) ---
-# Use a host condition so you don't depend on absolute-from URLs.
+# --- Canonical redirect: only for the Netlify subdomain ---
 [[redirects]]
-  from = "/*"
-  to   = "https://www.chinilab.com/:splat"   # change to https://chinilab.com/:splat if apex is primary
+  from = "https://dev-brain.netlify.app/*"
+  to   = "https://www.chinilab.com/:splat"
   status = 301
   force  = true
-  conditions = { Host = ["dev-brain.netlify.app"] }
