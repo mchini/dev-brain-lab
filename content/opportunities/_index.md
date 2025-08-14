@@ -7,8 +7,9 @@ image:
 # description: "Current postdoctoral and spontaneous opportunities in the lab."
 type: page 
 ---
-
-# Current opportunities
+<div style="height: 14px;"></div>
+## We are hiring!
+<div style="height: 14px;"></div>
 
 We have funding for **two fully-funded FNRS postdoctoral positions** (2+1 years) at GIGA - ULiège:
 
