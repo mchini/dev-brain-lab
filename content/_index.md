@@ -6,7 +6,7 @@ image:
 type: landing
 
 sections:
-  - block: content
+  - block: 
     content:
       text: |
         <div style="max-width:1100px;margin:0 auto;padding:0 1rem;">
@@ -27,7 +27,7 @@ sections:
           </div>
         </div>
 
-  - block: content
+  - block: 
     content:
       text: |
         <div style="max-width:1100px;margin:0 auto;padding:0 1rem;position:relative;top:-1.5em;text-align:center;">
