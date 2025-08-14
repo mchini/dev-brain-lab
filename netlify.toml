@@ -19,3 +19,24 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+# --- Force the Netlify subdomain to canonical (SEO-safe 301) ---
+[[redirects]]
+  from = "https://dev-brain.netlify.app/*"   # your Netlify subdomain
+  to   = "https://www.chinilab.com/:splat"   # <-- if www is primary
+  status = 301
+  force  = true
+
+# --- Make Deploy Previews non-indexable ---
+[context.deploy-preview]
+  [[context.deploy-preview.headers]]
+    for = "/*"
+    [context.deploy-preview.headers.values]
+      X-Robots-Tag = "noindex, nofollow"
+
+# --- Make Branch Deploys non-indexable (optional but recommended) ---
+[context.branch-deploy]
+  [[context.branch-deploy.headers]]
+    for = "/*"
+    [context.branch-deploy.headers.values]
+      X-Robots-Tag = "noindex, nofollow"
