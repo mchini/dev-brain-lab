@@ -24,13 +24,13 @@ sections:
           </div>
           <div style="font-size:0.98em;line-height:1.5;">
             Neurons usually “talk” by sending fast electrical signals called spikes. If I asked you to picture your brain falling completely silent for 
-			multiple seconds, you might think of coma, anesthesia, or even death. Yet, silence is how every brain starts out. The video above captures 
-			the real-time activity of hundreds of neurons in a healthy mouse. Each circle is a spike, a rare event drowned in an ocean of silence. 
-			These long silent phases are a hallmark of early brain development; just one of many mysteries that make this period so fascinating. 
-			This is what we study in the Chini lab. We focus on early development because we still know surprisingly little about it. 
-			More importantly, it is becoming increasingly clear that what happens in this phase has lifelong consequences, and is likely 
-			to be the key to understanding many neurological and psychiatric disorders. 
-			By uncovering how neural activity emerges from silence, we aim to understand how it shapes our brains for the rest of our lives.
+            multiple seconds, you might think of coma, anesthesia, or even death. Yet, silence is how every brain starts out. The video above captures 
+            the real-time activity of hundreds of neurons in a healthy mouse. Each circle is a spike, a rare event drowned in an ocean of silence. 
+            These long silent phases are a hallmark of early brain development; just one of many mysteries that make this period so fascinating. 
+            This is what we study in the Chini lab. We focus on early development because we still know surprisingly little about it. 
+            More importantly, it is becoming increasingly clear that what happens in this phase has lifelong consequences, and is likely 
+            to be the key to understanding many neurological and psychiatric disorders. 
+            By uncovering how neural activity emerges from silence, we aim to understand how it shapes our brains for the rest of our lives.
           </div>
         </div>
 
