@@ -3,7 +3,6 @@ title: "Publications"
 summary: "Peer-reviewed papers, preprints, code and datasets from the Chini Lab."
 image:
   filename: "media/og/publications.png"
-layout: no-title
 # Listing view
 view: my-layout
 

@@ -6,5 +6,4 @@ image:
 # Listing view
 view: compact
 type: page 
-layout: no-title
 ---

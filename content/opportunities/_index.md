@@ -6,7 +6,6 @@ image:
   share: false
 # description: "Current postdoctoral and spontaneous opportunities in the lab."
 type: page 
-layout: no-title
 ---
 
 # Current opportunities
