@@ -1,5 +1,5 @@
 ---
-title: Meet us at the Bernstein Conference 2025!
+title: Meet us at the 2025 Bernstein Conference!
 date: 2025-07-30
 show_author: false
 

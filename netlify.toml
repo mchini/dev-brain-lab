@@ -36,3 +36,9 @@
   to   = "https://www.chinilab.com/:splat"
   status = 301
   force  = true
+
+[[redirects]]
+  from = "https://chinilab.com/*"
+  to   = "https://www.chinilab.com/:splat"
+  status = 301
+  force  = true

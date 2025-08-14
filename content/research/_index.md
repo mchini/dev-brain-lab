@@ -61,7 +61,8 @@ providing unique insights without requiring artificial experimental manipulation
   <div style="font-size:0.75em; margin-top:0.5em;">
     <span style="font-size:1em; color:#555;">
       To estimate ITs on single-unit data of neonatal mice, we developed our own method: iSTTC. iSTTC has several critical advantages compared to current state-of-the-art approaches
-	  for IT estimation. Most crucial for our purpose, it provides much more accurate IT estimations on low-firing and bursty spike trains, typical conditions for early brain development.<br>
+	  for IT estimation. Most crucial for our purpose, it provides much more accurate IT estimations on low-firing and bursty spike trains, typical conditions for early brain development.
+	  Click on the image to read the preprint.<br>
     </span>
   </div>
 </div>
@@ -79,7 +80,7 @@ or if they are instead largely preconfigured by genetic and developmental progra
 
 <div style="text-align:center; margin-bottom: 2em;">
   <a href="https://www.biorxiv.org/content/10.1101/2023.12.29.573646v2" target="_blank">
-    <img src="protosequences.png" alt="isttc" style="max-width:80%">
+    <img src="protosequences.png" alt="protosequences" style="max-width:80%">
   </a>
   <div style="font-size:0.75em; margin-top:0.5em;">
     <span style="font-size:1em; color:#555;">
