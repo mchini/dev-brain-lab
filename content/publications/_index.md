@@ -6,6 +6,8 @@ image:
 # Listing view
 view: my-layout
 
+paginate: 9999
+
 # Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: ''
