@@ -6,7 +6,7 @@ image: "media/og/research.png"
 share: false
 description: "Research lines in the lab"
 type: page 
-layout: single
+layout: no-title
 tags: ["development", "electrophysiology", "parvalbumin", "nature", "nurture", "neural circuits", "neural networks", "timescales", "modeling",
 "CON²PHYS", "conceptual consistency"]
 ---

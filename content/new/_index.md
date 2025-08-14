@@ -5,5 +5,5 @@ image: "media/og/news.png"
 # Listing view
 view: compact
 type: page 
-
+layout: no-title
 ---

@@ -5,7 +5,7 @@ image: "media/og/opportunities.png"
 share: false
 # description: "Current postdoctoral and spontaneous opportunities in the lab."
 type: page 
-layout: single
+layout: no-title
 ---
 
 # Current opportunities
