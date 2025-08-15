@@ -24,7 +24,7 @@ sections:
         longitude: '5.567134846617104'
       autolink: true
     design:
-      columns: '2'
+      columns: '1'
 
   - block: markdown
     content:

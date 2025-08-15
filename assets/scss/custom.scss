@@ -33,12 +33,6 @@
   text-decoration: underline;
   transition: color .15s ease;
 }
-.view-compact .article-title a::after {
-  content: " →";
-  opacity: .7;
-  font-weight: 600;
-  transition: transform .15s ease, opacity .15s ease;
-}
 .view-compact .article-title a:hover {
   color: inherit;
 }
