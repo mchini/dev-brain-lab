@@ -22,7 +22,7 @@ Only for certain concepts? Time will tell.
 
 Does this sound interesting to you? Do you want to know more or participate in the study? You're still on time to do it! The project 
 will launch around the Bernstein Conference, participation will be open to everyone, and submissions will be accepted for ~9-12 months.
-All details are available [here](https://gin.g-node.org/mchini/CON2PHYS)
+All details are available [here](https://gin.g-node.org/mchini/CON2PHYS).
 
 ![Bernstein logo](bernstein.png)
 

@@ -13,7 +13,7 @@ sections:
         The address below refers to our new home at GIGA.
         
         <div style="margin-top:0.8rem;font-weight:600;">
-          For research inquiries & job opportunities: see <a href="/opportunities/">Opportunities</a> or email me.
+          For research inquiries & job opportunities: see <a href="/opportunities/">opportunities</a> or email me.
         </div>
       email: chinmattia@gmail.com
       address:
