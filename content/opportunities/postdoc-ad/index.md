@@ -23,7 +23,7 @@ to join an FNRS fully funded project exploring neural development, systems neuro
 ## Project Summary
 
 The project investigates network-level disruptions associated with impaired development of inhibitory circuits in a subtype of ASD. 
-Using cutting-edge in vivo electrophysiology (Neuropixels recordings), behavioral testing, opto- and chemo-genetic techniques, 
+Using cutting-edge in vivo electrophysiology (Neuropixels recordings), behavioral testing, opto/chemo-genetic techniques, 
 and spiking neural network modeling, we aim to uncover translational biomarkers and fundamental mechanisms underlying 
 altered inhibitory circuits and network dynamics. The project offers significant opportunities for scientific growth, 
 interdisciplinary collaboration, and method development.
@@ -52,14 +52,14 @@ and linking experimental data to theoretical frameworks.
 
 The successful candidate will perform in vivo electrophysiology and behavioral tests, investigating developmental trajectories and network-level dysfunction 
 in a mouse model of an ASD subtype. 
-Responsibilities include stereotactic surgeries, viral vector manipulation, in vivo electrophysiology, opto/chemogenetic experiments, behavioral testing.
+Responsibilities include stereotactic surgeries, viral vector manipulation, in vivo electrophysiology, opto/chemo-genetic experiments, behavioral testing.
 
 ### Requirements
 
 - PhD in neuroscience or related discipline
 - Strong experience with in vivo electrophysiology and rodent behavioral testing (strongly preferred)
 - Expertise in stereotactic surgeries and viral vector approaches (strongly preferred)
-- Expertise in opto- and chemo-genetic experiments (beneficial)
+- Expertise in opto/chemo-genetic experiments (beneficial)
 - Familiarity with in vitro electrophysiology and confocal microscopy techniques (beneficial)
 - Experience in analysis of large-scale in vivo electrophysiology datasets (beneficial)
 - Not have worked in Belgium for the past 5 years
@@ -79,7 +79,7 @@ Responsibilities include stereotactic surgeries, viral vector manipulation, in v
 
 ## How to Apply
 
-Interested applicants should submit a CV, brief statement of interest, and contact information for two references to **[chinmattia@gmail.com]**. 
+Interested applicants should submit a CV, brief statement of interest, and contact information for two references to **chinmattia@gmail.com**. 
 Review of applications will begin immediately and continue until the positions are filled. Priority will be given to applications received before 31/10/2025.
 
 ---

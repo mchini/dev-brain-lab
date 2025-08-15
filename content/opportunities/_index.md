@@ -33,4 +33,4 @@ If you are driven by curiosity and want to work at the intersection of developme
 you are encouraged to get in touch. All backgrounds, from biology and medicine to physics and mathematics, are welcome to apply.
 
 If you are interested, please send a short message explaining why you would like to join the lab, along with a brief CV. 
-You can contact me via e-mail or on socials - details are [here](/team/).
+You can contact me via e-mail or on socials - details are [here](/contact/).
