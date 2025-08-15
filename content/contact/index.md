@@ -1,6 +1,5 @@
 ---
 title: Contact
-
 type: landing
 
 sections:
@@ -22,30 +21,18 @@ sections:
       coordinates:
         latitude: '50.57325099342599'
         longitude: '5.567134846617104'
-    
-      # Automatically link email and phone or display as text?
       autolink: true
-    
     design:
       columns: '1'
 
   - block: markdown
     content:
-      title:
-      subtitle: ''
-      text:
+      text: |-
+        <div style="display:flex;justify-content:center;align-items:center;gap:2rem;flex-wrap:wrap;">
+          <img src="/media/uliege_logo.png" alt="University of Liège" style="height:55px;">
+          <img src="/media/fnrs_logo.png" alt="FNRS" style="height:55px;">
+          <img src="/media/zmnh-logo.svg" alt="ZMNH" style="height:55px;">
+        </div>
     design:
       columns: '1'
-      background:
-        image: 
-          filename: logo.png
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 ---
