@@ -28,30 +28,39 @@
   font-size: 1em;
 }
 
-/* Make news titles look like links */
-.view-compact .article-title a {
+/* Make titles look like links (blue + underline) */
+.view-compact .article-title a,
+.stream-item .article-title a {
+  color: #1a73e8;              /* accessible link blue */
   text-decoration: underline;
   transition: color .15s ease;
 }
-.view-compact .article-title a:hover {
-  color: inherit;
-}
-.view-compact .article-title a:hover::after {
-  transform: translateX(2px);
-  opacity: 1;
+.view-compact .article-title a:hover,
+.stream-item .article-title a:hover {
+  color: #0b5bd3;
 }
 
-/* Subtle hover background on the row */
-.view-compact .view-item {
+/* Subtle hover background on the whole row */
+.view-compact .view-item,
+.stream-item.media {
   border-radius: 8px;
   transition: background-color .15s ease;
 }
-.view-compact .view-item:hover {
+.view-compact .view-item:hover,
+.stream-item.media:hover {
   background: rgba(0,0,0,.04);
 }
-.view-compact .view-item .summary::after {
+
+/* “Read more →” cue after the excerpt (works for both class names) */
+.view-compact .view-item .article-style::after,
+.view-compact .view-item .summary::after,
+.stream-item .article-style::after,
+.stream-item .summary::after {
   content: "  Read more →";
-  opacity: .8;
+  display: inline-block;
+  margin-left: .25rem;
+  opacity: .85;
+  font-weight: 600;
 }
 
 
