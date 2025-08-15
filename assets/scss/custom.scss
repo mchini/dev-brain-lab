@@ -49,4 +49,9 @@
 .view-compact .view-item:hover {
   background: rgba(0,0,0,.04);
 }
+.view-compact .view-item .summary::after {
+  content: "  Read more →";
+  opacity: .8;
+}
+
 
