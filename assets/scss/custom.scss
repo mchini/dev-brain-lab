@@ -27,3 +27,32 @@
 .navbar .nav-link {
   font-size: 1em;
 }
+
+/* Make news titles look like links */
+.view-compact .article-title a {
+  text-decoration: underline;
+  transition: color .15s ease;
+}
+.view-compact .article-title a::after {
+  content: " →";
+  opacity: .7;
+  font-weight: 600;
+  transition: transform .15s ease, opacity .15s ease;
+}
+.view-compact .article-title a:hover {
+  color: inherit;
+}
+.view-compact .article-title a:hover::after {
+  transform: translateX(2px);
+  opacity: 1;
+}
+
+/* Subtle hover background on the row */
+.view-compact .view-item {
+  border-radius: 8px;
+  transition: background-color .15s ease;
+}
+.view-compact .view-item:hover {
+  background: rgba(0,0,0,.04);
+}
+
