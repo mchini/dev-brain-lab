@@ -32,6 +32,7 @@ sections:
             to be the key to understanding many neurological and psychiatric disorders. 
             By uncovering how neural activity emerges from silence, we aim to understand how it shapes our brains for the rest of our lives.
           </div>
+          </br> We are looking for new members to <a href="/opportunities/" style="color:#3182ce;font-weight:bold;">join the team</a>!.
         </div>
 
   - block: 
