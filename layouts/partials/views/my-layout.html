@@ -32,25 +32,26 @@
   <!-- MAIN CONTENT -->
   <div class="media-body">
 
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+    <!-- TITLE: now plain black, not clickable -->
+    <div class="section-subheading article-title mb-0 mt-0" style="color:#000;">
+      {{ $item.Title }}
     </div>
 
-	{{ $journal := $item.Params.publication | default $item.Params.journal }}
-	{{ $date := $item.Params.date }}
-	{{ $year := "" }}
-	{{ if $item.Params.year }}
-	  {{ $year = $item.Params.year }}
-	{{ else if $date }}
-	  {{ $year = (time $date).Year }}
-	{{ end }}
+    {{ $journal := $item.Params.publication | default $item.Params.journal }}
+    {{ $date := $item.Params.date }}
+    {{ $year := "" }}
+    {{ if $item.Params.year }}
+      {{ $year = $item.Params.year }}
+    {{ else if $date }}
+      {{ $year = (time $date).Year }}
+    {{ end }}
 
-	{{ if $journal }}
-	  <div class="article-meta" style="margin-bottom: 0.5em;">
-		<strong>{{ $journal }}</strong>
-		{{ if $year }} {{ $year }}{{ end }}
-	  </div>
-	{{ end }}
+    {{ if $journal }}
+      <div class="article-meta" style="margin-bottom: 0.5em;">
+        <strong>{{ $journal }}</strong>
+        {{ if $year }} {{ $year }}{{ end }}
+      </div>
+    {{ end }}
 
     <div class="stream-meta article-metadata">
       {{ if eq $item.Type "event" }}

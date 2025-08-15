@@ -6,6 +6,7 @@ image:
   preview_only: true
 profile: false 
 ---
+<div style="height: 56px;"></div>
 
 We are very excited to share our latest [preprint](https://www.biorxiv.org/content/10.1101/2025.08.01.668071v1) introducing iSTTC, 
 a powerful new tool for accurately measuring intrinsic neural timescales from single-unit activity datasets. 
