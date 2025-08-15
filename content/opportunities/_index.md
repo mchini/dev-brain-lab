@@ -29,7 +29,7 @@ We have funding for **two fully-funded FNRS postdoctoral positions** (2+1 years)
 ## Open applications
 
 We welcome spontaneous applications from enthusiastic scientists at any stage: master’s students, PhDs, or postdocs. 
-If you are driven by curiosity and want to work at the intersection of developmental biology, systems and computatioanal neuroscience, 
+If you are driven by curiosity and want to work at the intersection of developmental biology, systems and computational neuroscience, 
 you are encouraged to get in touch. All backgrounds, from biology and medicine to physics and mathematics, are welcome to apply.
 
 If you are interested, please send a short message explaining why you would like to join the lab, along with a brief CV. 

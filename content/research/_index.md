@@ -27,7 +27,7 @@ Ultimately, these network-level disruptions have significant implications for be
   <div style="font-size:0.75em; margin-top:0.5em;">
     <span style="font-size:1em; color:#555;">
       Using spiking neural networks, we show that a shift towards inhibition leads to an increase in 1/f ratio (our preferred proxy), a decorrelation of spiking activity, and the 
-	  emergence of hippocampal ripples (see Pochinok et al., 2024). All these predictions were experimentally confirmed.<br>
+	  emergence of hippocampal ripples (see Pochinok et al., 2024). All these predictions were experimentally confirmed. Click on the image to read the paper.<br>
     </span>
   </div>
 </div>
@@ -85,7 +85,7 @@ or if they are instead largely preconfigured by genetic and developmental progra
   <div style="font-size:0.75em; margin-top:0.5em;">
     <span style="font-size:1em; color:#555;">
       Remarkably self-similar protosequences emerge also in a system that is entirely devoid of any interaction with the "outside world", such as a brain organoid.
-	  This aligns with the view that much of brain development is "preconfigured".<br>
+	  This aligns with the view that much of brain development is "preconfigured". Click on the image to read the preprint.<br>
     </span>
   </div>
 </div>

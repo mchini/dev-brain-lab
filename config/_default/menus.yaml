@@ -19,3 +19,6 @@ main:
   - name: Opportunities
     url: opportunities
     weight: 50
+  - name: Contact
+    url: contact
+    weight: 60

@@ -4,7 +4,7 @@ date: 2025-07-31
 # Add categories, tags, or menu if you wish
 featured: false
 profile: false 
-tags: ["postdoc", "neuroscience", "ASD", "electrophysiology", "computational", "system", "experimental", "opportunities"]
+#tags: ["postdoc", "neuroscience", "ASD", "electrophysiology", "computational", "system", "experimental", "opportunities"]
 ---
 
 # Two Postdoctoral Positions in Neuroscience  
