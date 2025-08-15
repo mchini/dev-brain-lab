@@ -40,16 +40,6 @@
   color: #0b5bd3;
 }
 
-/* Subtle hover background on the whole row */
-.view-compact .view-item,
-.stream-item.media {
-  border-radius: 8px;
-  transition: background-color .15s ease;
-}
-.view-compact .view-item:hover,
-.stream-item.media:hover {
-  background: rgba(0,0,0,.04);
-}
 
 /* “Read more →” cue after the excerpt (works for both class names) */
 .view-compact .view-item .article-style::after,
