@@ -15,7 +15,7 @@ sections:
       user_groups:
         - Group Leader
         - Postdocs
-        - PhD Students (Hamburg - in the Hanganu Opatz lab)
+        - Hanganu-Opatz lab
         - PhD Students
         - Master Students
         - Administration
