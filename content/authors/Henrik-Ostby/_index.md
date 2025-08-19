@@ -27,7 +27,7 @@ social:
     link: https://twitter.com/Henrikstby
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - PhD Students (Hamburg)
+  - PhD Students (Hamburg - in the Hanganu Opatz lab)
   
 _build:
   render: never
