@@ -5,3 +5,7 @@
 /resources/
 public/
 assets/jsconfig.json
+
+.ipynb_checkpoints/
+ai_files_website/
+spikes-simulation.ipynb
