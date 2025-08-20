@@ -44,7 +44,7 @@ and linking experimental data to theoretical frameworks.
 - Experience in analysis of large-scale in vivo electrophysiology datasets (preferred)
 - Familiarity with advanced statistical modeling (advantageous)
 - Familiarity with in-vivo electrophysiology (advantageous)
-- Not have worked in Belgium for the past 5 years
+- Not have lived/worked in Belgium for more than 24 months in the past 3 years
 
 ---
 
@@ -62,7 +62,7 @@ Responsibilities include stereotactic surgeries, viral vector manipulation, in v
 - Expertise in opto/chemo-genetic experiments (beneficial)
 - Familiarity with in vitro electrophysiology and confocal microscopy techniques (beneficial)
 - Experience in analysis of large-scale in vivo electrophysiology datasets (beneficial)
-- Not have worked in Belgium for the past 5 years
+- Not have lived/worked in Belgium for more than 24 months in the past 3 years
 
 ---
 
