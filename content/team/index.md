@@ -15,7 +15,7 @@ sections:
       user_groups:
         - Group Leader
         - Postdocs
-        - PhD Students (Hanganu-Opatz lab)
+        - Co-supervised PhD Students (Hanganu-Opatz lab)
         - PhD Students
         - Master Students
         - Administration
