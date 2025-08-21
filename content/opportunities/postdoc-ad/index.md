@@ -29,8 +29,8 @@ altered inhibitory circuits and network dynamics. The project offers significant
 interdisciplinary collaboration, and method development.
 
 Relevant publications:
-- [Pochinok et al., 2024 NatComm](https://doi.org/10.1038/s41467-024-44983-z)
-- [Chini et al., 2024 CellRep](https://doi.org/https://doi.org/10.1016/j.celrep.2024.114267)
+- [Pochinok et al., 2024 Nature Communications](https://doi.org/10.1038/s41467-024-44983-z)
+- [Chini et al., 2024 Cell Reports](https://doi.org/https://doi.org/10.1016/j.celrep.2024.114267)
 - [Chini et al., 2022 eLife](https://doi.org/10.7554/eLife.78811)
 - [Bitzenhofer et al., 2021 Neuron](https://doi.org/10.1016/j.neuron.2021.02.011)
 - [Chini et al., 2020 Neuron](https://doi.org/10.1016/j.neuron.2019.09.042)
