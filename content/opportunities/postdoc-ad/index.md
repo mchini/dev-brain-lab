@@ -11,7 +11,7 @@ profile: false
 **Chini Lab, GIGA Institute, University of Liège**
 
 The newly established **Chini Lab** at the **GIGA Institute**, University of Liège, Belgium, is seeking two highly motivated postdoctoral researchers 
-to join an FNRS fully funded project exploring neural development, systems neuroscience, and circuit dysfunction linked to autism spectrum disorders (ASD).
+to join an FNRS-funded project exploring neural development, systems neuroscience, and circuit dysfunction linked to autism spectrum disorder (ASD).
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 2em; margin-bottom: 1em;">
   <img src="uliege_logo.png" alt="University of Liège" style="height:70px;">
@@ -34,16 +34,15 @@ interdisciplinary collaboration, and method development.
 
 The ideal candidate will lead computational analyses of large-scale electrophysiological datasets and neural circuit modeling. 
 Tasks include advanced time-series analysis (SUA, LFP), and developing spiking neural network models to interpret developmental circuit dysfunction 
-and linking experimental data to theoretical frameworks.
+and link experimental data to theoretical frameworks.
 
 ### Requirements
 
 - PhD in neuroscience or a related field
 - Strong programming skills, ideally in Python (MATLAB or R also okay)
 - Experience with time-series analysis and neural network modeling (preferred)
-- Experience in analysis of large-scale in vivo electrophysiology datasets (preferred)
+- Familiarity with analysis of large-scale in vivo electrophysiology datasets (preferred)
 - Familiarity with advanced statistical modeling (advantageous)
-- Familiarity with in-vivo electrophysiology (advantageous)
 - Not have lived/worked in Belgium for more than 24 months in the past 3 years
 
 ---
@@ -52,7 +51,8 @@ and linking experimental data to theoretical frameworks.
 
 The successful candidate will perform in vivo electrophysiology and behavioral tests, investigating developmental trajectories and network-level dysfunction 
 in a mouse model of an ASD subtype. 
-Responsibilities include stereotactic surgeries, viral vector manipulation, in vivo electrophysiology, opto/chemo-genetic experiments, behavioral testing.
+Responsibilities include stereotactic surgeries, viral vector manipulation, in vivo electrophysiology, opto/chemo-genetic experiments, behavioral testing,
+confocal imaging and image analysis.
 
 ### Requirements
 
@@ -69,7 +69,7 @@ Responsibilities include stereotactic surgeries, viral vector manipulation, in v
 ## What We Offer
 
 - Competitive salary funded by the FNRS
-- Two-year contracts with the possibility of a one-year extension (2+1 years)
+- Two-year contract with the possibility of a one-year extension (2+1 years)
 - A supportive and collaborative research environment
 - Commitment to work-life balance and a family-friendly environment
 - Beautiful forest surrounding the lab, great bike commuting possibilities
