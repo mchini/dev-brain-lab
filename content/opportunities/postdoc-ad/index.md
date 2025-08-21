@@ -22,11 +22,18 @@ to join an FNRS-funded project exploring neural development, systems neuroscienc
 
 ## Project Summary
 
-The project investigates network-level disruptions associated with impaired development of inhibitory circuits in a subtype of ASD. 
+The project investigates network-level disruptions associated with impaired development of inhibitory circuits in an ASD subtype. 
 Using cutting-edge in vivo electrophysiology (Neuropixels recordings), behavioral testing, opto/chemo-genetic techniques, 
 and spiking neural network modeling, we aim to uncover translational biomarkers and fundamental mechanisms underlying 
 altered inhibitory circuits and network dynamics. The project offers significant opportunities for scientific growth, 
 interdisciplinary collaboration, and method development.
+
+Relevant publications:
+- [Pochinok et al., 2024 NatComm](https://doi.org/10.1038/s41467-024-44983-z)
+- [Chini et al., 2024 CellRep](https://doi.org/https://doi.org/10.1016/j.celrep.2024.114267)
+- [Chini et al., 2022 eLife](https://doi.org/10.7554/eLife.78811)
+- [Bitzenhofer et al., 2021 Neuron](https://doi.org/10.1016/j.neuron.2021.02.011)
+- [Chini et al., 2020 Neuron](https://doi.org/10.1016/j.neuron.2019.09.042)
 
 ---
 
