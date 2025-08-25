@@ -51,6 +51,7 @@ and link experimental data to theoretical frameworks.
 - Familiarity with analysis of large-scale in vivo electrophysiology datasets (preferred)
 - Familiarity with advanced statistical modeling (advantageous)
 - Not have lived/worked in Belgium for more than 24 months in the past 3 years
+- Soft skills: team player, good communicator, critical thinker, autonomy and good organization skills
 
 ---
 
@@ -70,6 +71,7 @@ confocal imaging and image analysis.
 - Familiarity with in vitro electrophysiology and confocal microscopy techniques (beneficial)
 - Experience in analysis of large-scale in vivo electrophysiology datasets (beneficial)
 - Not have lived/worked in Belgium for more than 24 months in the past 3 years
+- Soft skills: team player, good communicator, critical thinker, autonomy and good organization skills
 
 ---
 
@@ -88,6 +90,7 @@ confocal imaging and image analysis.
 
 Interested applicants should submit a CV, brief statement of interest, and contact information for two references to **chinmattia@gmail.com**. 
 Review of applications will begin immediately and continue until the positions are filled. Priority will be given to applications received before 31/10/2025.
+The ideal starting date is January 2026, but later is also possible.
 
 ---
 
