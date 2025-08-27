@@ -72,4 +72,7 @@ build:
 
 module:
   vendor: true
+  replacements:
+    github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind: ./vendor/github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+
 
