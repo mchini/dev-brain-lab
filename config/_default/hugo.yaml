@@ -60,10 +60,16 @@ related:
       weight: 70
 security:
   _merge: deep
+  
 sitemap:
   filename: sitemap.xml
   changefreq: weekly
   priority: 0.5
   disable: false
+  
 build:
   writeStats: true
+
+module:
+  vendor: true
+

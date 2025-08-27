@@ -2,10 +2,12 @@
   command = "hugo mod vendor && hugo --gc --minify -b $URL"
   publish = "public"
 
-
 [build.environment]
   HUGO_VERSION = "0.148.2"
   HUGO_ENABLEGITINFO = "true"
+  GO_VERSION = "1.22.5"
+  HUGO_CACHEDIR = "/opt/build/repo/.hugo_cache"
+
 
 [context.production.environment]
   HUGO_ENV = "production"
