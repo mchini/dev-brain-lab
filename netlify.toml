@@ -42,3 +42,30 @@
   status = 301
   force  = true
 
+# Tutte le vecchie pagine singole di pubblicazioni → hub
+[[redirects]]
+  from = "/publication/*"
+  to = "/publications/"
+  status = 301
+  force = true
+
+# (se avevi pagine Autore singole vecchie)
+[[redirects]]
+  from = "/author/*"
+  to = "/"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "http://chinilab.com/*"
+  to   = "https://www.chinilab.com/:splat"
+  status = 301
+  force  = true
+
+# Forza HTTPS su www
+[[redirects]]
+  from = "http://www.chinilab.com/*"
+  to   = "https://www.chinilab.com/:splat"
+  status = 301
+  force  = true
+
