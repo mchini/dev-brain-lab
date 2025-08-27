@@ -1,6 +1,7 @@
 [build]
-  command = "hugo --gc --minify -b $URL"
+  command = "hugo mod vendor && hugo --gc --minify -b $URL"
   publish = "public"
+
 
 [build.environment]
   HUGO_VERSION = "0.148.2"

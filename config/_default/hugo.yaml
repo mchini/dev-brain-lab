@@ -65,3 +65,5 @@ sitemap:
   changefreq: weekly
   priority: 0.5
   disable: false
+build:
+  writeStats: true
