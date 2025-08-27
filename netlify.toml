@@ -4,10 +4,12 @@
 
 [build.environment]
   HUGO_VERSION = "0.148.2"
-  HUGO_ENABLEGITINFO = "true"
   GO_VERSION = "1.22.5"
+  HUGO_ENABLEGITINFO = "true"
   HUGO_CACHEDIR = "/opt/build/repo/.hugo_cache"
+  HUGO_RESOURCEDIR = "/opt/build/repo/resources"
   HUGO_MOD_VENDORING = "true"
+
 
 [context.production.environment]
   HUGO_ENV = "production"
@@ -25,11 +27,6 @@
     for = "/*"
     [context.branch-deploy.headers.values]
       X-Robots-Tag = "noindex, nofollow"
-
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
 
 
 # --- Canonical redirect: only for the Netlify subdomain ---
