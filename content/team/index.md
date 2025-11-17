@@ -17,14 +17,14 @@ share: false
   background: #ffffff;
   border-radius: 14px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  padding: 18px;  /* RIDOTTO */
+  padding: 10px;  /* RIDOTTO */
   text-align: center;
   width: 340px;
 ">
 
   <img src="mattia-chini.jpg"
        alt="Mattia Chini"
-       style="width:120px; height:120px; border-radius:50%; object-fit:cover; margin-bottom:16px;" />
+       style="width:190px; height:190px; border-radius:50%; object-fit:cover; margin-bottom:16px;" />
 
   <h3 style="margin:4px 0; font-size: 1.3rem;">Mattia Chini</h3>
   <p style="color:#666; margin-top:0;">Group Leader</p>
@@ -51,42 +51,42 @@ share: false
 
   <div style="
     background:#fff;
-    border-radius:14px;
+    border-radius:10px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
     padding:20px;
     text-align:center;
   ">
     <img src="guoming-tony-man.jpg"
          alt="Guoming Tony Man"
-         style="width:80px; height:80px; border-radius:50%; object-fit:cover; margin-bottom:12px;" />
+         style="width:190px; height:190px; border-radius:50%; object-fit:cover; margin-bottom:12px;" />
     <h3 style="margin:4px 0; font-size:1rem;">Guoming Tony Man</h3>
     <p style="color:#666; margin-top:0;">PhD Student</p>
   </div>
 
   <div style="
     background:#fff;
-    border-radius:14px;
+    border-radius:10px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
     padding:20px;
     text-align:center;
   ">
     <img src="henrik-ostby.jpg"
          alt="Henrik Østby"
-         style="width:80px; height:80px; border-radius:50%; object-fit:cover; margin-bottom:12px;" />
+         style="width:190px; height:190px; border-radius:50%; object-fit:cover; margin-bottom:12px;" />
     <h3 style="margin:4px 0; font-size:1rem;">Henrik Østby</h3>
     <p style="color:#666; margin-top:0;">PhD Student</p>
   </div>
 
   <div style="
     background:#fff;
-    border-radius:14px;
+    border-radius:10px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
     padding:20px;
     text-align:center;
   ">
     <img src="irina-pochinok.jpg"
          alt="Irina Pochinok"
-         style="width:80px; height:80px; border-radius:50%; object-fit:cover; margin-bottom:12px;" />
+         style="width:190px; height:190px; border-radius:50%; object-fit:cover; margin-bottom:12px;" />
     <h3 style="margin:4px 0; font-size:1rem;">Irina Pochinok</h3>
     <p style="color:#666; margin-top:0;">PhD Student</p>
   </div>
