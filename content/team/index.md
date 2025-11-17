@@ -3,6 +3,7 @@ title: "Team"
 profile: false
 image:
   preview_only: true
+share: false
 ---
 
 <div style="height: 20px;"></div>
