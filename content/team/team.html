@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>team – Chini Lab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Icone social (opzionale, puoi togliere questo blocco e gli <i> se non ti servono) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-pIVpG8gXWbUu6O6RjV9PvK9M0S8GZbI8g/3lXqgF3eGf5E9VtZ9K3K4DvJx1pRk+3Y9QfCl+eVqC2TzC7xYig=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <style>
+    :root {
+      --max-width: 1000px;
+      --card-bg: #ffffff;
+      --page-bg: #f7f7f9;
+      --text-main: #222222;
+      --text-muted: #666666;
+      --accent: #003366;
+      --border-radius: 14px;
+      --shadow-soft: 0 10px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      background: var(--page-bg);
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+
+    .page-wrapper {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 40px 16px 80px;
+    }
+
+    .page-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+
+    .team-group {
+      margin-bottom: 60px;
+    }
+
+    .team-group h2 {
+      text-align: center;
+      font-size: 1.6rem;
+      margin: 0 0 24px;
+    }
+
+    /* Group leader layout */
+    .leader-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    .person-card {
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow-soft);
+      padding: 24px 28px;
+      text-align: center;
+      max-width: 360px;
+      width: 100%;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 16px;
+      background: #ddd;
+    }
+
+    .person-name {
+      font-size: 1.25rem;
+      margin: 4px 0;
+    }
+
+    .person-role {
+      margin: 0 0 12px;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .social-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid #dddddd;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background 0.15s ease, color 0.15s ease,
+        border-color 0.15s ease;
+    }
+
+    .social-links a:hover {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent);
+    }
+
+    /* Grid groups (students) */
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 24px;
+    }
+
+    .person-card.small {
+      padding: 18px;
+    }
+
+    .person-card.small .avatar {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 12px;
+    }
+
+    .person-card.small .person-name {
+      font-size: 1rem;
+    }
+
+    .person-card.small .person-role {
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .page-wrapper {
+        padding-top: 24px;
+      }
+      .page-title {
+        font-size: 1.6rem;
+        margin-bottom: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <h1 class="page-title">team</h1>
+
+    <!-- Group Leader -->
+    <section class="team-group">
+      <h2>Group Leader</h2>
+      <div class="leader-wrapper">
+        <div class="person-card">
+          <!-- avatar: images/team/mattia-chini.jpg -->
+          <img
+            src="images/team/mattia-chini.jpg"
+            alt="Mattia Chini"
+            class="avatar"
+          />
+          <h3 class="person-name">Mattia Chini</h3>
+          <p class="person-role">Group Leader</p>
+
+          <div class="social-links">
+            <!-- aggiorna i link con quelli reali -->
+            <a href="mailto:mattia.chini@uliege.be" title="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://scholar.google.com/" title="Google Scholar">
+              <i class="fa-brands fa-google"></i>
+            </a>
+            <a href="https://orcid.org/" title="ORCID">
+              <i class="fa-brands fa-orcid"></i>
+            </a>
+            <a href="https://github.com/" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Co-supervised PhD Students (Hanganu-Opatz lab) -->
+    <section class="team-group">
+      <h2>Co-supervised PhD Students (Hanganu-Opatz lab)</h2>
+
+      <div class="team-grid">
+        <div class="person-card small">
+          <!-- avatar: images/team/guoming-tony-man.jpg -->
+          <img
+            src="images/team/guoming-tony-man.jpg"
+            alt="Guoming Tony Man"
+            class="avatar"
+          />
+          <h3 class="person-name">Guoming Tony Man</h3>
+          <p class="person-role">PhD Student</p>
+        </div>
+
+        <div class="person-card small">
+          <!-- avatar: images/team/henrik-ostby.jpg -->
+          <img
+            src="images/team/henrik-ostby.jpg"
+            alt="Henrik Østby"
+            class="avatar"
+          />
+          <h3 class="person-name">Henrik Østby</h3>
+          <p class="person-role">PhD Student</p>
+        </div>
+
+        <div class="person-card small">
+          <!-- avatar: images/team/irina-pochinok.jpg -->
+          <img
+            src="images/team/irina-pochinok.jpg"
+            alt="Irina Pochinok"
+            class="avatar"
+          />
+          <h3 class="person-name">Irina Pochinok</h3>
+          <p class="person-role">PhD Student</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
