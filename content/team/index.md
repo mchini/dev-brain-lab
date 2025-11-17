@@ -16,8 +16,8 @@ share: false
 <div style="
   background: #ffffff;
   border-radius: 14px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-  padding: 28px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 18px;  /* RIDOTTO */
   text-align: center;
   width: 340px;
 ">
