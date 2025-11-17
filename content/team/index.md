@@ -34,8 +34,8 @@ share: false
     <a href="https://scholar.google.com/citations?user=tQ8lYxgAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a>
     <a href="https://gin.g-node.org/mchini"><i class="fas fa-database"></i></a>
     <a href="https://github.com/mchini"><i class="fab fa-github"></i></a>
-    <a href="https://bsky.app/profile/mattiachini.bsky.social"><i class="fab bluesky"></i></a>
-    <a href="https://x.com/chini_mattia"><i class="fab fa-x-twitter"></i></a>
+    <a href="https://bsky.app/profile/mattiachini.bsky.social"><i class="fas fa-cloud"></i></a>
+    <a href="https://www.linkedin.com/in/mattia-chini-4b490b227/"><i class="fab fa-linkedin-in"></i></a>
   </div>
 
 </div>
