@@ -1,5 +1,5 @@
 ---
-title: Protosequences in brain organoids model intrinsic brain states
+title: Preconfigured neuronal firing sequences in human brain organoids
 
 # Authors
 # A YAML list of author names
@@ -17,11 +17,12 @@ authors:
 - Jinghui Geng
 - Max Lim
 - Julian Bartram
+- Tobias Gänswein
 - Aditya Dendukuri
 - Zongren Zhang
 - Jesus Gonzalez-Ferrer
 - Kiran Bhaskaran-Nair
-- Lon J. Blauvelt
+- Aidan L. Morson
 - Cole R. K. Harder
 - Linda R. Petzold
 - Dowlette-Mary Alam El Din
@@ -42,36 +43,34 @@ authors:
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2025-11-24'
+date: '2025-11-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2025-07-30T09:57:39.121579Z'
+publishDate: '2025-11-24T13:50:04.305213Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- preprint
+- article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: 'bioRxiv'
+publication: '*Nature Neuroscience*'
 publication_short: ''
 
-doi: https://doi.org/10.1038/s41593-025-02111-0
+doi: 10.1038/s41593-025-02111-0
 
-abstract: Neuronal firing sequences are thought to be the basic building blocks of
-  neural coding and information broadcasting within the brain. However, when sequences
-  emerge during neurodevelopment remains unknown. We demonstrate that structured firing
-  sequences are present in spontaneous activity of human and murine brain organoids
-  and ex vivo neonatal brain slices from the murine somatosensory cortex. We observed
-  a balance between temporally rigid and flexible firing patterns that are emergent
-  phenomena in human and murine brain organoids and early postnatal murine somatosensory
-  cortex, but not in primary dissociated cortical cultures. Our findings suggest that
-  temporal sequences do not arise in an experience-dependent manner, but are rather
-  constrained by an innate preconfigured architecture established during neurogenesis.
-  These findings highlight the potential for brain organoids to further explore how
-  exogenous inputs can be used to refine neuronal circuits and enable new studies
-  into the genetic mechanisms that govern assembly of functional circuitry during
-  early human brain development.
+abstract: Neuronal firing sequences are thought to be the building blocks of information
+  and broadcasting within the brain. Yet, it remains unclear when these sequences
+  emerge during neurodevelopment. Here we demonstrate that structured firing sequences
+  appear in spontaneous activity of human and murine brain organoids, both unguided
+  and forebrain identity directed, as well as ex vivo neonatal murine cortical slices.
+  We observed temporally rigid and flexible firing patterns in human and murine brain
+  organoids and early postnatal murine somatosensory cortex, but not in dissociated
+  primary cortical cultures. These results suggest that temporal sequences do not
+  arise in an experience-dependent manner, but are rather constrained by a preconfigured
+  architecture established during neurodevelopment. By demonstrating the developmental
+  recapitulation of neural firing patterns, these findings highlight the potential
+  of brain organoids as a model for neuronal circuit assembly.
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -91,11 +90,10 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
 image:
-  caption: 'The remarkable self-similarity of proto-sequences in brain organoids'
+  caption: ''
   focal_point: ''
   preview_only: false
 
