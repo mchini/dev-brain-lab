@@ -1,5 +1,5 @@
 ---
-title: Preconfigured firing sequences in brain organoids (Nature Neuroscience)
+title: Paper out in Nature Neuroscience!
 date: 2025-11-24
 
 image:
@@ -10,8 +10,6 @@ profile: false
 
 I am over the moon to share that our work on preconfigured neuronal firing sequences in human brain organoids has just been published in Nature Neuroscience:
 [Preconfigured neuronal firing sequences in human brain organoids](https://www.nature.com/articles/s41593-025-02111-0)
-
-![organoids preconfigured](featured.png)
 
 This project was led by Tjitse van der Molen, Alex Spaeth and Tal Sharf, together with an impressive range of collaborators 
 spanning UCSC, UCSB, ETH Zürich, Johns Hopkins, Hamburg (ourselves!) and others. 
@@ -28,8 +26,11 @@ To tackle this, we analysed single-unit activity from four systems:
 Using high-density CMOS-based MEAs, we found that human and mouse organoids, as well as neonatal cortical slices, 
 naturally generate “proto” firing sequences during spontaneous population bursts. A minority of neurons forms a backbone: 
 high-firing units that fire in a precise order on ~10² ms timescales, burst after burst. 
-These backbone neurons sit in the tail of lognormal firing rate and connectivity distributions, and occupy a low-dimensional subspace of the population activity. 
+These backbone neurons sit in the tail of lognormal firing rate and connectivity distributions, and occupy a low-dimensional subspace of the population activity.
+This low-dimensional activity pattern is what constitutes the stable part of the firing sequences that we observed.
 Around them, a larger pool of more irregular, flexible units explores higher-dimensional dynamics.
+
+![organoids preconfigured](featured.png)
 
 Crucially, 2D dissociated cultures do not show these stable sequences. They still burst, but their activity collapses into more 
 lower-dimensional patterns that cannot sustain ordered sequences. This contrast points to something quite concrete: 
