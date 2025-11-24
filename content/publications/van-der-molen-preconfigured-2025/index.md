@@ -54,7 +54,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Nature Neuroscience*'
+publication: 'Nature Neuroscience'
 publication_short: ''
 
 doi: 10.1038/s41593-025-02111-0
