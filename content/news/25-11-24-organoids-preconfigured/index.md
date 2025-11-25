@@ -30,7 +30,7 @@ These backbone neurons sit in the tail of lognormal firing rate and connectivity
 This low-dimensional activity pattern is what constitutes the stable part of the firing sequences that we observed.
 Around them, a larger pool of more irregular, flexible units explores higher-dimensional dynamics.
 
-![organoids preconfigured](featured.png)
+![organoids preconfigured](featured_in.png)
 
 Crucially, 2D dissociated cultures do not show these stable sequences. They still burst, but their activity collapses into more 
 lower-dimensional patterns that cannot sustain ordered sequences. This contrast points to something quite concrete: 
