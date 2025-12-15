@@ -109,9 +109,9 @@ This lack of conceptual consensus can have sneaky consequences, because nominall
 nonetheless all acceptable (i.e., "defensible" from a peer-review perspective). This can obscure (or amplify!) scientific disagreements around these murky concepts and, 
 ultimately, slow scientific progress.
 
-To bring this issue into light, we initiated [CON²PHYS](https://gin.g-node.org/mchini/CON2PHYS), a meta-science project explicitly designed to measure and quantify conceptual variability within the neuroscience community. 
+To bring this issue into light, we initiated [CON²PHYS](https://mchini.github.io/con2phys/), a meta-science project explicitly designed to measure and quantify conceptual variability within the neuroscience community. 
 Participants at all career stages will be invited to independently analyze a common, carefully curated electrophysiological dataset, responding to multiple-choice questions designed to test the extent to which 
 they agree on how to interpret and implement various core system-neuroscience concepts. 
 
-The ultimate objective of [CON²PHYS](https://gin.g-node.org/mchini/CON2PHYS) is not only diagnostic but also actionable. By identifying where conceptual inconsistencies most significantly impact research outcomes, 
+The ultimate objective of [CON²PHYS](https://mchini.github.io/con2phys/) is not only diagnostic but also actionable. By identifying where conceptual inconsistencies most significantly impact research outcomes, 
 we can focus community-driven consensus-building efforts precisely where they're needed.

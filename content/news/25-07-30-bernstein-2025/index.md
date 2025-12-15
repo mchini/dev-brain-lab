@@ -11,7 +11,7 @@ profile: false
 
 I am excited to share that, together with Irina Pochinok from the "Hamburg faction" of the lab, I will co-organise two events at the Bernstein Conference 2025 in Frankfurt.
 
-Both events are centered around [CON<sup>2</sup>PHYS](https://gin.g-node.org/mchini/CON2PHYS), a collaborative study on 
+Both events are centered around [CON<sup>2</sup>PHYS](https://mchini.github.io/con2phys/), a collaborative study on 
 CONceptual CONsistency in electroPHYSiology, 
 a project that is near and dear to my heart. CON<sup>2</sup>PHYS is an attempt at quantifying whether when "we" electrophysiologists 
 refer to a high-level concept (dimensionality, functional communication, but also hippocampal ripple, or spike-spike correlations etc.), 
@@ -22,7 +22,7 @@ Only for certain concepts? Time will tell.
 
 Does this sound interesting to you? Do you want to know more or participate in the study? You're still on time to do it! The project 
 will launch around the Bernstein Conference, participation will be open to everyone, and submissions will be accepted for ~9-12 months.
-All details are available [here](https://gin.g-node.org/mchini/CON2PHYS).
+All details are available [here](https://mchini.github.io/con2phys/).
 
 ![Bernstein logo](bernstein.png)
 
@@ -30,7 +30,7 @@ All details are available [here](https://gin.g-node.org/mchini/CON2PHYS).
 The ["Consensus" PhD symposium](https://bernstein-network.de/en/bernstein-conference/early-career-scientists/phd-symposium/) 
 will open the conference on September 28<sup>th</sup>. 
 Irina and I will co-organize a hackathon, in which we will divide PhD students in small teams, and have them tackle a few questions taken from
-[CON<sup>2</sup>PHYS](https://gin.g-node.org/mchini/CON2PHYS). Next, we will quantify the extent to which the teams will have reached a "Consensus",
+[CON<sup>2</sup>PHYS](https://mchini.github.io/con2phys/). Next, we will quantify the extent to which the teams will have reached a "Consensus",
 and discuss the results with all participants.
 
 ### Satellite Workshop – 29–30 September 2025
