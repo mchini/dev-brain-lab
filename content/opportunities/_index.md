@@ -9,23 +9,6 @@ type: page
 ---
 <div style="height: 14px;"></div>
 
-# We are hiring!
-
-
-We have funding for **two fully-funded FNRS postdoctoral positions** (2+1 years) at GIGA - ULiège:
-
-- One **experimentalist:** for those with hands-on in-vivo electrophysiology experience.
-- One **computational:** for applicants with a strong background in data analysis or spiking neural network modeling.
-
-[**Full details here.**](/opportunities/postdoc-ad/)
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 2em; margin-bottom: 1em;">
-  <img src="uliege_logo.png" alt="University of Liège" style="height:70px;">
-  <img src="fnrs_logo.png" alt="FNRS" style="height:70px;">
-</div>
-
----
-
 ## Open applications
 
 We welcome spontaneous applications from enthusiastic scientists at any stage: master’s students, PhDs, or postdocs. 
@@ -34,3 +17,8 @@ you are encouraged to get in touch. All backgrounds, from biology and medicine t
 
 If you are interested, please send a short message explaining why you would like to join the lab, along with a brief CV. 
 You can contact me via e-mail or on socials - details are [here](/contact/).
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 2em; margin-bottom: 1em;">
+  <img src="uliege_logo.png" alt="University of Liège" style="height:70px;">
+  <img src="fnrs_logo.png" alt="FNRS" style="height:70px;">
+</div>
