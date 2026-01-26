@@ -1,6 +1,6 @@
 ---
 title: Paper out in Brain, Behavior, and Immunity!
-date: 2026-02-30
+date: 2026-02-27
 
 image:
   preview_only: true
