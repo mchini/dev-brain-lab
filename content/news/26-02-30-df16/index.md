@@ -1,6 +1,6 @@
 ---
 title: Paper out in Brain, Behavior, and Immunity!
-date: 2026-01-25
+date: 2026-02-30
 
 image:
   preview_only: true
@@ -31,6 +31,6 @@ and cognitive flexibility in a 4-choice attentional set-shifting reversal.
 I particularly like this work because it beautifully complements a prior paper ([Chini et al., 2020 Neuron](https://doi.org/10.1016/j.neuron.2019.09.042)), 
 where we implicated microglia (and rescued it with an analogous minocycline administration) in a neurodevelopmental disorder mouse model 
 with a clear immune trigger (maternal immune activation). 
-The key twist here is that 22q11.2 deletion has no obvious inflammatory “event” upstream—yet we still see a developmental microglia imbalance 
+The key twist here is that 22q11.2 deletion has no obvious inflammatory “event” upstream. Yet, we still see a developmental microglia imbalance 
 that predicts circuit and behavioral dysfunction, and that is modifiable early. That makes the finding even more interesting: 
 microglia-related mechanisms, and its rescue by minocycline administration, may be a convergent bottleneck even when the etiology is not obviously inflammatory.
