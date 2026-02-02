@@ -31,20 +31,22 @@ publication_types:
 publication: 'Brain, Behavior, and Immunity'
 publication_short: ''
 
-doi: https://doi.org/10.1016/j.bbi.2026.106470
+doi: "https://doi.org/10.1016/j.bbi.2026.106470"
 
-abstract: Cognitive deficits, a characteristic feature of neuropsychiatric disorders, reflect perturbed activity in neuronal networks. 
-Increasing evidence has linked neuroinflammation to impaired neuronal activity and resulting cognitive dysfunction, 
-yet the underlying cellular mechanisms and developmental dynamics remain largely unclear. 
-Here, we address this knowledge gap by investigating the Df(16)A mouse model of human 22q11.2 microdeletions, 
-a prevalent chromosomal abnormality associated with an increased incidence of neuropsychiatric disorders. 
-During early postnatal development, Df(16)A+/− mice show an imbalance of inflammatory signaling markers accompanied 
-by increased microglial density in the superficial layers of the prefrontal cortex. Consequently, spine densities of 
-pyramidal neurons were decreased, resulting in disrupted patterns of prefrontal neuronal activity during development 
-and poor performance in a set-shifting task at juvenile age. Early treatment with minocycline, an anti-inflammatory drug, 
-lastingly rescued these deficits in Df(16)A+/− mice, rebalancing signaling cascades and restoring neural activity as well 
-as cognitive performance. These findings identify the early rebalancing of inflammatory signaling cascades as a promising 
-therapeutic strategy for mitigating pathophysiological trajectories associated with the 22q11.2 deletion syndrome.
+abstract: >-
+  Cognitive deficits, a characteristic feature of neuropsychiatric disorders, reflect perturbed activity in neuronal networks.
+  Increasing evidence has linked neuroinflammation to impaired neuronal activity and resulting cognitive dysfunction,
+  yet the underlying cellular mechanisms and developmental dynamics remain largely unclear.
+  Here, we address this knowledge gap by investigating the Df(16)A mouse model of human 22q11.2 microdeletions,
+  a prevalent chromosomal abnormality associated with an increased incidence of neuropsychiatric disorders.
+  During early postnatal development, Df(16)A+/− mice show an imbalance of inflammatory signaling markers accompanied
+  by increased microglial density in the superficial layers of the prefrontal cortex. Consequently, spine densities of
+  pyramidal neurons were decreased, resulting in disrupted patterns of prefrontal neuronal activity during development
+  and poor performance in a set-shifting task at juvenile age. Early treatment with minocycline, an anti-inflammatory drug,
+  lastingly rescued these deficits in Df(16)A+/− mice, rebalancing signaling cascades and restoring neural activity as well
+  as cognitive performance. These findings identify the early rebalancing of inflammatory signaling cascades as a promising
+  therapeutic strategy for mitigating pathophysiological trajectories associated with the 22q11.2 deletion syndrome.
+
 
 # Summary. An optional shortened abstract.
 summary: ''
