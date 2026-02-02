@@ -15,7 +15,7 @@ sections:
         <div style="margin-top:0.8rem;font-weight:600;">
           For research inquiries & job opportunities: see <a href="/opportunities/">opportunities</a> or email me.
         </div>
-      email: chinmattia@gmail.com
+      email: mchini@uliege.be
       address:
         street: Avenue de l'Hôpital 1, 4000 , Belgium
         city: Liège
