@@ -8,7 +8,7 @@ profile: false
 ---
 <div style="height: 14px;"></div>
 
-I am excited to share that we just published a study from my time in the Hanganu-Opatz lab in Hamburg: 
+I am excited to share that we [just published a study](https://doi.org/10.1016/j.bbi.2026.106470) from my time in the Hanganu-Opatz lab in Hamburg: 
 “Early rebalancing of neuroinflammatory cascades lastingly rescues prefrontal deficits in a 22q11.2ds model”. 
 This project was led by Anne Günther, who did the bulk of the work and drove the study end-to-end. 
 
