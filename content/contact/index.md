@@ -8,9 +8,9 @@ sections:
       title: Contact
       text: |-
         The Chini lab has roots at the ZMNH in Hamburg, in the <a href="https://www.opatzlab.com/" target="_blank" style="color:#3182ce;font-weight:bold;">lab</a>
-        of Ileana Hanganu-Opatz, where a part of the team is still located. We are in the process of establishing a new site at
+        of Ileana Hanganu-Opatz, where a part of the team is still located. The main part of the lab is now in the new site at
         <a href="https://www.giga.uliege.be/" target="_blank" style="color:#3182ce;font-weight:bold;">GIGA Institute</a> in Liège. 
-        The address below refers to our new home at GIGA.
+        The address below refers to our home at GIGA.
         
         <div style="margin-top:0.8rem;font-weight:600;">
           For research inquiries & job opportunities: see <a href="/opportunities/">opportunities</a> or email me.
