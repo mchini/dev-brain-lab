@@ -1,6 +1,5 @@
 ---
-title: Self-Organizing Neural Networks in Organoids Reveal Principles of Forebrain
-  Circuit Assembly
+title: Establishing mouse forebrain organoids as models of intrinsic cortical network assembly
 
 # Authors
 # A YAML list of author names
@@ -13,6 +12,7 @@ authors:
 - Gregory A. Kaurala
 - Ash Robbins
 - Daniel Solis
+- Samira Vera-Choqqueccota
 - Jinghui Geng
 - Tjitse van der Molen
 - Francisco Reyes
@@ -29,37 +29,57 @@ authors:
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
-author_notes: []
+author_notes:
+- Equal contribution
+- Equal contribution
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- Lead contact
 
-date: '2025-05-01'
+date: '2026-04-14'
 
-doi: https://doi.org/10.1101/2025.05.01.651773
+doi: https://doi.org/10.1016/j.stemcr.2026.102832
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2025-07-30T09:57:39.137011Z'
+publishDate: '2026-03-15T00:00:00Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- preprint
+- article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: 'bioRxiv'
+publication: 'Stem Cell Reports'
 publication_short: ''
 
 abstract: The mouse cortex is a canonical model for studying how functional neural
   networks emerge, yet it remains unclear which topological features arise from intrinsic
-  cellular organization versus external regional cues. Mouse forebrain organoids provide
-  a powerful system to investigate these intrinsic mechanisms. We generated dorsal
-  (DF) and ventral (VF) forebrain organoids from mouse pluripotent stem cells and
-  tracked their development using longitudinal electrophysiology. DF organoids showed
-  progressively stronger network-wide correlations, while VF organoids developed more
-  refined activity patterns, enhanced small-world topology, and increased modular
-  organization. These differences emerged without extrinsic inputs and may be driven
-  by the increased generation of Pvalb+ interneurons in VF organoids. Our findings
-  demonstrate how variations in cellular composition influence the self-organization
-  of neural circuits, establishing mouse forebrain organoids as a tractable platform
-  to study how neuronal populations shape cortical network architecture.
+  cellular organization versus sensory input. Mouse forebrain organoids provide a
+  powerful system to investigate these intrinsic mechanisms. We generated dorsal (DF)
+  and ventral (VF) forebrain organoids from mouse pluripotent stem cells and tracked
+  their development using longitudinal electrophysiology. DF organoids showed progressively
+  stronger network-wide correlations, while VF organoids developed more refined activity
+  patterns with enhanced small-world topology and increased modular organization.
+  Both organoid types form small-world networks, but their topological organization
+  differs. These differences emerge without extrinsic inputs and correlate with Pvalb+
+  interneuron enrichment in VF organoids. Our findings demonstrate how cellular composition
+  influences neural circuit self-organization, establishing mouse forebrain organoids
+  as a tractable platform to study cortical network architecture.
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -71,15 +91,13 @@ featured: false
 
 # Links
 url_pdf: ''
-url_code: ''
+url_code: 'https://github.com/braingeneers/Sakura_final'
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
-
-
 
 # Publication image
 # Add an image named `featured.jpg/png` to your page's folder then add a caption below.
