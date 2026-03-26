@@ -8,7 +8,7 @@ profile: false
 ---
 <div style="height: 14px;"></div>
 
-<img src="IBL-affiliate.png" style="float: left; margin: 0 24px 12px 0; width: 260px;">
+<img src="featured.png" style="float: left; margin: 0 24px 12px 0; width: 260px;">
 
 I am thrilled to announce that our lab has officially become an affiliate of the [International Brain Laboratory](https://www.internationalbrainlab.com/)!
 
