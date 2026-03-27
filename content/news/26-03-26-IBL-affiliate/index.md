@@ -8,9 +8,9 @@ profile: false
 ---
 <div style="height: 14px;"></div>
 
-{{< figure src="featured.png" >}}
-
 I am thrilled to announce that our lab has officially become an affiliate of the [International Brain Laboratory](https://www.internationalbrainlab.com/)!
+
+{{< figure src="featured.png" >}}
 
 This affiliation grows directly out of [CON²PHYS](https://con2phys.org/) (CONceptual CONsistency in electroPHYSiology), 
 a collaborative project I have been involved in that aims to quantify and address the analytical variability problem in systems neuroscience. 
