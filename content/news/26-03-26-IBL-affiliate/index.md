@@ -12,6 +12,8 @@ This affiliation grows directly out of [CON²PHYS](https://con2phys.org/) (CONce
 a collaborative project I have been involved in that aims to quantify and address the analytical variability problem in systems neuroscience. 
 The IBL's support of CON²PHYS, and their willingness to formalize our connection through this affiliation, means a great deal to the lab.
 
+![ibl-affiliate](featured.jpeg)
+
 We look forward to deepening what I hope will be a productive and long-lasting partnership.
 
 Exciting times ahead!
