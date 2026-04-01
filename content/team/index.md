@@ -7,7 +7,6 @@ share: false
 ---
 <div style="height: 20px;"></div>
 <div style="max-width: 900px; margin: 0 auto;">
-<h2 style="text-align: center; margin-bottom: 30px;">Group Leader</h2>
 <div style="display: flex; justify-content: center; margin-bottom: 50px;">
 <div style="
   background: #ffffff;
@@ -32,7 +31,6 @@ share: false
   </div>
 </div>
 </div>
-<h2 style="text-align:center; margin-bottom: 30px;">Postdocs</h2>
 <div style="
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -66,7 +64,6 @@ share: false
     <p style="color:#666; margin-top:0;">Postdoc</p>
   </div>
 </div>
-<h2 style="text-align:center; margin-bottom: 30px;">Co-supervised PhD Students (Hanganu-Opatz lab)</h2>
 <div style="
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -113,4 +110,3 @@ share: false
   </div>
 </div>
 </div>
-```
