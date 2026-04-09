@@ -6,9 +6,11 @@ image:
   preview_only: true
 profile: false 
 ---
+<div style="height: 14px;"></div>
+
 I am thrilled to announce that our lab has officially become an affiliate of the [International Brain Laboratory](https://www.internationalbrainlab.com/)!
 
-This affiliation grows directly out of [CON²PHYS](https://con2phys.org/) (CONceptual CONsistency in electroPHYSiology), 
+This affiliation grows directly out of [CON²PHYS](https://mchini.github.io/con2phys/) (CONceptual CONsistency in electroPHYSiology), 
 a collaborative project I have been involved in that aims to quantify and address the analytical variability problem in systems neuroscience. 
 The IBL's support of CON²PHYS, and their willingness to formalize our connection through this affiliation, means a great deal to the lab.
 
