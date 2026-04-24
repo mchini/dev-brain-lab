@@ -25,7 +25,7 @@ share: false
     <h3 style="margin:4px 0; font-size:1rem;">Mattia Chini</h3>
     <p style="color:#666; margin-top:0;">Group Leader</p>
     <div style="display:flex; justify-content:center; gap:10px; margin-top:14px;">
-      <a href="mailto:chinmattia@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="mailto:mchini@uliege.be"><i class="fas fa-envelope"></i></a>
       <a href="https://scholar.google.com/citations?user=tQ8lYxgAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a>
       <a href="https://gin.g-node.org/mchini"><i class="fas fa-database"></i></a>
       <a href="https://github.com/mchini"><i class="fab fa-github"></i></a>
