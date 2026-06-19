@@ -15,7 +15,7 @@ The story starts with ripples. At a hackathon we organized, 18 teams analyzed th
 Their estimates ranged from almost none to ten per minute. Every team was skilled and every method was defensible, yet a ripple turned out to be whatever each detection pipeline decided it was. 
 Magritte would have understood.
 
-![ceci-nest-pas-un-ripple](pas-un-ripples.png)
+![ceci-nest-pas-un-ripple](featured.png)
 
 If electrophysiology cannot agree on something as concrete as a ripple, what else might we be getting wrong? That is the question CON²PHYS sets out to answer.
 
