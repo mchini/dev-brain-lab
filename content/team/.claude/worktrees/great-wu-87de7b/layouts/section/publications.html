@@ -1,0 +1,14 @@
+{{- define "main" -}}
+  {{ partial "page_header.html" . }}
+
+  <div class="universal-wrapper">
+    {{ with .Content }}
+      <div class="article-style">{{ . }}</div>
+    {{ end }}
+
+    {{ $view := .Params.view | default "compact" }}
+    {{ range $index, $item := .Pages.ByDate.Reverse }}
+      {{ partial "functions/render_view" (dict "page" $ "item" $item "view" $view "index" $index) }}
+    {{ end }}
+  </div>
+{{- end -}}

@@ -1,0 +1,56 @@
+.container {
+  max-width: 70%; // Desktop default
+}
+
+/* Sets the width for single pages like /research/ */
+.article-container {
+  max-width: 70%;
+}
+
+/* --- MOBILE OVERRIDE: pagina più larga su schermi piccoli --- */
+@media (max-width: 600px) {
+  .container,
+  .article-container {
+    max-width: 100vw !important;
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+  }
+}
+
+/* Grassetto solo per Opportunities nel menu */
+.navbar-nav li a[href*="opportunities"] {
+  font-weight: bold;
+}
+
+.navbar,
+.navbar-nav,
+.navbar .nav-link {
+  font-size: 1em;
+}
+
+/* Make titles look like links (blue + underline) */
+.view-compact .article-title a,
+.stream-item .article-title a {
+  color: #1a73e8;              /* accessible link blue */
+  text-decoration: underline;
+  transition: color .15s ease;
+}
+.view-compact .article-title a:hover,
+.stream-item .article-title a:hover {
+  color: #0b5bd3;
+}
+
+
+/* “Read more →” cue after the excerpt (works for both class names) */
+.view-compact .view-item .article-style::after,
+.view-compact .view-item .summary::after,
+.stream-item .article-style::after,
+.stream-item .summary::after {
+  content: "  Read more →";
+  display: inline-block;
+  margin-left: .25rem;
+  opacity: .85;
+  font-weight: 600;
+}
+
+

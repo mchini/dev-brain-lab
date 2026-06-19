@@ -1,0 +1,72 @@
+# Configuration of Hugo
+# Guide: https://docs.hugoblox.com/tutorial/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+title: Chini Lab # Website name
+baseURL: "https://www.chinilab.com/" 
+enableRobotsTXT: true
+canonifyURLs: true
+
+############################
+## LANGUAGE
+############################
+
+defaultContentLanguage: en
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+############################
+## ADVANCED
+############################
+
+enableGitInfo: false
+summaryLength: 30
+pagination:
+  pagerSize: 10
+enableEmoji: true
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+permalinks:
+  authors: '/author/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
+disableAliases: true
+outputs:
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  section: [HTML, RSS]
+imaging:
+  resampleFilter: lanczos
+  quality: 75
+  anchor: smart
+timeout: 600000
+taxonomies:
+  tag: tags
+  category: categories
+  publication_type: publication_types
+  author: authors
+markup:
+  _merge: deep
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
+security:
+  _merge: deep
+  
+sitemap:
+  filename: sitemap.xml
+  changefreq: weekly
+  priority: 0.5
+  disable: false
+  
+build:
+  writeStats: true
+

@@ -1,0 +1,85 @@
+{{ $item := .item }}
+{{ $show_authors_only := false }}
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+{{ if eq $item.Type "event" }}
+  {{ $show_authors_only = true }}
+{{ else if eq $item.Type "publication" }}
+  {{ $show_authors_only = true }}
+{{ else if eq $item.Type "project" }}
+  {{ $show_authors_only = true }}
+{{ end }}
+
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+
+<div class="media stream-item view-compact">
+  <!-- IMAGE LEFT (was on right in compact view) -->
+  <div class="mr-2 ml-0">
+    {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+    {{ with $resource }}
+      {{ $image := .Resize "150x" }}
+      {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+      <!-- Image NOT clickable anymore -->
+      <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+           alt="{{ $item.Title }}" loading="lazy">
+    {{ end }}
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="media-body">
+
+    <!-- TITLE: now plain black, not clickable -->
+    <div class="section-subheading article-title mb-0 mt-0" style="color:#000;">
+      {{ $item.Title }}
+    </div>
+
+    {{ $journal := $item.Params.publication | default $item.Params.journal }}
+    {{ $date := $item.Params.date }}
+    {{ $year := "" }}
+    {{ if $item.Params.year }}
+      {{ $year = $item.Params.year }}
+    {{ else if $date }}
+      {{ $year = (time $date).Year }}
+    {{ end }}
+
+    {{ if $journal }}
+      <div class="article-meta" style="margin-bottom: 0.5em;">
+        <strong>{{ $journal }}</strong>
+        {{ if $year }} {{ $year }}{{ end }}
+      </div>
+    {{ end }}
+
+    <div class="stream-meta article-metadata">
+      {{ if eq $item.Type "event" }}
+        <div>
+          <span>
+            {{ partial "functions/get_event_dates" $item }}
+          </span>
+          {{ with $item.Params.location }}
+            <span class="middot-divider"></span>
+            <span>{{ . }}</span>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      {{ if and $show_authors_only $item.Params.authors }}
+        <div>
+          {{ partial "page_metadata_authors" $item }}
+        </div>
+      {{ else if not $show_authors_only }}
+        {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+      {{ end }}
+    </div>
+
+    {{ if $has_attachments }}
+      <div class="btn-links">
+        {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      </div>
+    {{ end }}
+
+  </div>
+</div>

@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{/* keep your navbar, remove the big H1 (we already overrode page_header) */}}
+  <div class="universal-wrapper">
+    {{ with .Content }}
+      <div class="article-style">{{ . }}</div>
+    {{ end }}
+    {{/* IMPORTANT: do NOT render .Pages here -> no child listing */}}
+  </div>
+{{ end }}

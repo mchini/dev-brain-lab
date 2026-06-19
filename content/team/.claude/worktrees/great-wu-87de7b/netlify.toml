@@ -1,0 +1,71 @@
+[build]
+  command = "hugo mod vendor && hugo --gc --minify -b $URL"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.148.2"
+  GO_VERSION = "1.22.5"
+  HUGO_ENABLEGITINFO = "true"
+  HUGO_CACHEDIR = "/opt/build/repo/.hugo_cache"
+  HUGO_RESOURCEDIR = "/opt/build/repo/resources"
+  HUGO_MOD_VENDORING = "true"
+
+
+[context.production.environment]
+  HUGO_ENV = "production"
+
+[context.deploy-preview]
+  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  [[context.deploy-preview.headers]]
+    for = "/*"
+    [context.deploy-preview.headers.values]
+      X-Robots-Tag = "noindex, nofollow"
+
+[context.branch-deploy]
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  [[context.branch-deploy.headers]]
+    for = "/*"
+    [context.branch-deploy.headers.values]
+      X-Robots-Tag = "noindex, nofollow"
+
+
+# --- Canonical redirect: only for the Netlify subdomain ---
+[[redirects]]
+  from = "https://dev-brain.netlify.app/*"
+  to   = "https://www.chinilab.com/:splat"
+  status = 301
+  force  = true
+
+[[redirects]]
+  from = "https://chinilab.com/*"
+  to   = "https://www.chinilab.com/:splat"
+  status = 301
+  force  = true
+
+# Tutte le vecchie pagine singole di pubblicazioni → hub
+[[redirects]]
+  from = "/publication/*"
+  to = "/publications/"
+  status = 301
+  force = true
+
+# (se avevi pagine Autore singole vecchie)
+[[redirects]]
+  from = "/author/*"
+  to = "/"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "http://chinilab.com/*"
+  to   = "https://www.chinilab.com/:splat"
+  status = 301
+  force  = true
+
+# Forza HTTPS su www
+[[redirects]]
+  from = "http://www.chinilab.com/*"
+  to   = "https://www.chinilab.com/:splat"
+  status = 301
+  force  = true
+
