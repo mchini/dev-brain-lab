@@ -83,7 +83,7 @@ share: false
          alt="Henrik Østby"
          style="width:190px; height:190px; border-radius:50%; object-fit:cover; margin-bottom:12px;" />
     <h3 style="margin:4px 0; font-size:1rem;">Henrik Østby</h3>
-    <p style="color:#666; margin-top:0;">PhD Student</p>
+    <p style="color:#666; margin-top:0;">Postdoc</p>
   </div>
   <div style="
     background:#fff;
