@@ -9,6 +9,19 @@ type: page
 ---
 <div style="height: 14px;"></div>
 
+## Funded postdoctoral position: CON²PHYS
+
+<div class="postdoc-callout">
+  <p><strong>The Chini Lab at GIGA–ULiège is looking for an enthusiastic postdoctoral researcher to work on CON²PHYS and related projects.</strong></p>
+  <p>CON²PHYS is a community-wide study of how neuroscientists define, analyze, and interpret electrophysiological phenomena when working with the same data. The project combines systems and computational neuroscience with questions about reproducibility, conceptual consistency, open science, and scientific collaboration.</p>
+  <p>Enthusiasm, curiosity, independence, and genuine interest in the project are the most important qualities.</p>
+  <p>To express your interest, email <a href="mailto:mchini@uliege.be">mchini@uliege.be</a> with your CV and a brief explanation of why the project interests you.</p>
+  <div class="postdoc-actions">
+    <a class="postdoc-btn postdoc-btn-primary" href="{{< relref "/news/2026-07-15-postdoc-con2phys" >}}">Read the full position description →</a>
+    <a class="postdoc-btn postdoc-btn-secondary" href="mailto:mchini@uliege.be?subject=Postdoctoral%20position%20%E2%80%94%20CON2PHYS">Email Mattia Chini →</a>
+  </div>
+</div>
+
 ## Open applications
 
 We welcome spontaneous applications from enthusiastic scientists at any stage: master’s students, PhDs, or postdocs. 

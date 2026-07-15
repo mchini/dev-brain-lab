@@ -54,3 +54,51 @@
 }
 
 
+/* --- Funded postdoc position callout (Opportunities page) --------------- */
+/* Scoped to .postdoc-callout only. No JS, no external CSS libraries.        */
+/* The card carries its own background + text colours, so it stays legible   */
+/* on either a light or dark page background (self-contained contrast).      */
+.postdoc-callout {
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0.25rem 0 1.75rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #c9d6ea;
+  border-left: 5px solid #1a3a6b;   /* CON²PHYS-blue accent */
+  border-radius: 8px;
+  background: #f5f8fd;
+  color: #24303f;
+
+  p { margin-bottom: 0.75rem; overflow-wrap: break-word; }
+  p:last-child { margin-bottom: 0; }
+  .postdoc-funding { font-size: 0.95em; color: #3d4a5c; }
+
+  a { color: #1a3a6b; }
+
+  .postdoc-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.1rem;
+  }
+
+  .postdoc-btn {
+    display: inline-block;
+    padding: 0.55rem 1.1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: opacity .15s ease, background-color .15s ease;
+  }
+  .postdoc-btn:hover { opacity: 0.9; }
+  .postdoc-btn:focus-visible {
+    outline: 3px solid #1a73e8;
+    outline-offset: 2px;
+  }
+  .postdoc-btn-primary   { background: #1a3a6b; color: #ffffff; border-color: #1a3a6b; }
+  .postdoc-btn-secondary { background: #ffffff;  color: #1a3a6b; border-color: #1a3a6b; }
+}
+
+
