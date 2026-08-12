@@ -36,7 +36,7 @@ Read about the pilot results in [The Transmitter](https://www.thetransmitter.org
 
 ## Who are we looking for?
 
-The most important qualities are enthusiasm, intellectual curiosity, independence, and a genuine interest in the questions behind the project.
+The most important qualities are enthusiasm, intellectual curiosity, independence, and a strong interest in the questions behind the project.
 
 The position may be particularly appealing to someone interested in one or more of the following:
 
@@ -60,6 +60,6 @@ Please email Mattia Chini at [mchini@uliege.be](mailto:mchini@uliege.be?subject=
 - your CV;
 - a brief message explaining why the project interests you and why you would like to join the lab.
 
-Formal cover letters are not necessary at this initial stage. A clear and genuine expression of interest is more useful than a highly polished LLM-generated application package.
+Formal cover letters are not necessary at this initial stage. A clear expression of interest is more useful than a highly polished but vague LLM-generated application.
 
 <div style="clear: left;"></div>
