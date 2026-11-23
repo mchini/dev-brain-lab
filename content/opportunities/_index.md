@@ -15,12 +15,7 @@ type: page
   <p><strong>We are looking for a postdoctoral researcher and a PhD student to join the Chini Lab at GIGA–ULiège, ideally starting in March 2027!</strong></p>
   <p>Our lab has received funding as part of a new European research consortium investigating how exposure to nanoplastics during pregnancy may affect early brain development. Together with our collaborators, we will study the consequences for the formation and maturation of neuronal circuits, combining approaches ranging from animal models to human brain organoids. More details about the consortium will be shared following the official announcement.</p>
   <p><strong>Two positions are available:</strong> a 2-year postdoctoral position and a fully funded 4-year PhD position.</p>
-  <p>Enthusiasm, intellectual curiosity, independence, and a genuine interest in developmental neuroscience matter most. We welcome candidates from different backgrounds who are excited by the questions behind the project.</p>
-  <p>Interested? Email <a href="mailto:mchini@uliege.be">mchini@uliege.be</a> with your CV and a brief message explaining why you would like to join us. A formal cover letter is not necessary at this stage.</p>
-  <div class="postdoc-actions">
-    <a class="postdoc-btn postdoc-btn-primary" href="mailto:mchini@uliege.be?subject=Postdoctoral%20position%20%E2%80%94%20Early%20brain%20development">Postdoc: get in touch →</a>
-    <a class="postdoc-btn postdoc-btn-secondary" href="mailto:mchini@uliege.be?subject=PhD%20position%20%E2%80%94%20Early%20brain%20development">PhD: get in touch →</a>
-  </div>
+  <p>Read more about this [here](/news/).</p>
 </div>
 
 ## Spontaneous applications
